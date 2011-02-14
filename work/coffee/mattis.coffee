@@ -4,7 +4,7 @@ $ ->
   $list = $('#cv')
   
   $list.isotope
-    layoutMode: 'fitRows'
+    layoutMode: 'straightDown'
     getSortData:
       date: ( $elem ) ->
         return $elem.attr('data-date')

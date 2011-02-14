@@ -1,10 +1,11 @@
 $extra_light_blue: #D1E5F8
 $medium_blue: #A8D3F8
 body
-  padding: 25px 30px
+  padding: 25px 30px 25px 20%
   background-color: #eee
   color: #000
   font-family: "helvetica neue", Arial, sans-serif
+  
 a
   text-decoration: none
   outline: none
@@ -17,12 +18,23 @@ h1.matt
   margin: 0 0 20px -3px
   color: #ddd
 .view-controller
+  // padding: 2px 18px 5px 6px
+  // border-width: 1px 2px 2px 1px
+  // border-style: solid
+  // border-color: #eaeaea #DEDEDE #DEDEDE #eaeaea
+  // display: inline-block
+  // background-color: #f9f9f9
+
   padding: 19px 10px 0
   display: inline-block
   font-weight: bold
   position: relative
   border-left: 1px solid #ccc
   margin: 0 0 20px 0
+  font-size: 90%
+  // &:hover
+  //   background-color: #f9f9f9
+  //   border-color: #ddd #ccc #ccc #ddd
   &.first
     border-left: none
     margin-left: -8px
@@ -50,25 +62,21 @@ h1.matt
 .elements
   padding-bottom: 2px
 .element
-  display: inline-block
-  float: left
-  background-color: #f9f9f9
+
   font-size: 100%
   margin: 0
-  padding: 2px 18px 5px 6px
-  border-width: 1px 2px 2px 1px
-  border-style: solid
-  border-color: #eaeaea #DEDEDE #DEDEDE #eaeaea
+  padding: 4px
+
   position: relative
-  margin: 2px 0 0 2px
+  // margin: 2px 0 0 2px
   &:hover
-    background-color: #fff
-    border-color: #ddd #ccc #ccc #ddd
-    z-index: 1
-    .detail
-      color: #444
+    // background-color: #f9f9f9
+    // border-color: #ddd #ccc #ccc #ddd
+    // z-index: 1
+    // .detail, .title
+    //   color: #777
 .detail
-  display: block
+  display: inline
   font-size: 80%
   color: #888
   margin: 5px 0 0 0
@@ -84,10 +92,12 @@ h1.matt
   display: inline-block
   font-size: 69%
   text-transform: uppercase
-  color: #666
+  color: #aaa
   font-weight: bold
   letter-spacing: 0.03em
   margin-right: 10px
+  text-align: right
+  width: 90px
 .locations
   color: #999
   font-size: 65%

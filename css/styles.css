@@ -1,5 +1,5 @@
 body {
-  padding: 25px 30px;
+  padding: 25px 30px 25px 20%;
   background-color: #eeeeee;
   color: black;
   font-family: "helvetica neue", Arial, sans-serif; }
@@ -23,7 +23,8 @@ h1.matt {
   font-weight: bold;
   position: relative;
   border-left: 1px solid #cccccc;
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0;
+  font-size: 90%; }
   .view-controller.first {
     border-left: none;
     margin-left: -8px; }
@@ -53,26 +54,13 @@ h1.matt {
   padding-bottom: 2px; }
 
 .element {
-  display: inline-block;
-  float: left;
-  background-color: #f9f9f9;
   font-size: 100%;
   margin: 0;
-  padding: 2px 18px 5px 6px;
-  border-width: 1px 2px 2px 1px;
-  border-style: solid;
-  border-color: #eaeaea #dedede #dedede #eaeaea;
-  position: relative;
-  margin: 2px 0 0 2px; }
-  .element:hover {
-    background-color: white;
-    border-color: #dddddd #cccccc #cccccc #dddddd;
-    z-index: 1; }
-    .element:hover .detail {
-      color: #444444; }
+  padding: 4px;
+  position: relative; }
 
 .detail {
-  display: block;
+  display: inline;
   font-size: 80%;
   color: #888888;
   margin: 5px 0 0 0; }
@@ -90,10 +78,12 @@ h1.matt {
   display: inline-block;
   font-size: 69%;
   text-transform: uppercase;
-  color: #666666;
+  color: #aaaaaa;
   font-weight: bold;
   letter-spacing: 0.03em;
-  margin-right: 10px; }
+  margin-right: 10px;
+  text-align: right;
+  width: 90px; }
 
 .locations {
   color: #999999;

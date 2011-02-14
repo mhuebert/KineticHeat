@@ -2,7 +2,7 @@ elements:
   - categories: [ cv, entrepreneurial ]
     name: "Startup #3"
     title: Founder
-    detail: "Stealth mode startup&mdash;<a href='#'>sign up</a> for the beta"
+    detail: "stealth mode startup&mdash;<a href='#'>sign up</a> for the beta"
     length: 5
     date: 2010-09
     passion: 10
@@ -10,7 +10,7 @@ elements:
     name: School of Discipleship
     title: student
     locations: Winnipeg, Canada
-    detail: Theology & cultural studies in Canada and Guatemala (pre-atheism)
+    detail: theology & cultural studies in Canada and Guatemala (pre-atheism)
     length: 8
     date: 2002-04
     passion: 8
@@ -32,7 +32,7 @@ elements:
   - categories: [ cv, education ]
     name: Forum for International Trade Training
     title: student
-    detail: A short course in Global entrepreneurship
+    detail: a short course in Global Entrepreneurship
     length: 3.1
     date: 2003-06
     passion: 4
@@ -40,7 +40,7 @@ elements:
     name: Youth Unlimited 
     title: intern
     locations: Washington State
-    detail: Mentoring youth in Washington State
+    detail: mentoring youth in Washington State
     length: 7
     date: 2002-12
     passion: 4
@@ -48,7 +48,7 @@ elements:
     name: Habitat for Humanity
     title: intern
     locations: Guatemala
-    detail: Design & communications in the Guatemala national office
+    detail: design & communications in the Guatemala national office
     length: 3.5
     date: 2003-12
     passion: 8
@@ -56,7 +56,7 @@ elements:
     name: Junior Team Canada
     title: team leader
     locations: China, Singapore, Malaysia, Chile
-    detail: Strengthening economic relations with Asia & South America
+    detail: strengthening economic relations with Asia & South America
     length: 14
     date: 2005-08
     passion: 9
@@ -64,7 +64,7 @@ elements:
     name: YouthInside 
     title: co-founder
     locations: Hong Kong
-    detail: Encouraging youth to start international companies
+    detail: encouraging youth to start international companies
     length: 3.2
     date: 2006-01
     passion: 9
@@ -72,14 +72,14 @@ elements:
     name: Bodo
     title: co-founder
     locations: Beijing, China; Calgary, Canada
-    detail: Wellness product design, retail and distribution company
+    detail: wellness product design, retail and distribution company
     length: 24
     date: 2010-08
     passion: 9.1
   - categories: [ cv, entrepreneurial, technical ]
     name: Design & Development
     title: Consultant
-    detail: Using design, psychology, and technology to achieve goals
+    detail: improving business with design, psychology, and technology
     length: 48
     date: 2008-01
     passion: 5
@@ -87,7 +87,7 @@ elements:
     name: Ethical Style 
     title: Founder
     locations: Guatemala, South East Asia, Canada
-    detail: For-profit venture supporting artesans in developing economies
+    detail: a for-profit venture supporting artesans in developing economies
     length: 12
     date: 2004-12
     passion: 10
@@ -95,7 +95,7 @@ elements:
     name: Saskatchewan Trade & Export Partnership 
     title: intern
     locations: Saskatoon, Canada
-    detail: Helping local businesses sell to the world
+    detail: helping local businesses reach international markets
     length: 3
     date: 2005-08
     passion: 4
@@ -103,7 +103,7 @@ elements:
     name: Nata Reforestation & Management
     title: treeplanter
     locations: Tumbler Ridge, British Columbia
-    detail: Did it for the money
+    detail: did it for the money
     length: 3
     date: 2002-08
     passion: 1
@@ -111,7 +111,7 @@ elements:
     name: National Millennium Excellence Award
     title: recipient
     locations: Ottawa
-    detail: Top 100 of 7000 applicants
+    detail: top 100 of 7000 applicants
     date: 2003-08
     passion: 0
     length: 0
@@ -119,7 +119,7 @@ elements:
     name: Kramer Scholarship
     title: recipient
     locations: University of Saskatchewan
-    detail: For "outstanding leadership"
+    detail: for "outstanding leadership"
     date: 2003-09
     passion: 0
     length: 0

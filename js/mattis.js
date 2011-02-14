@@ -3,7 +3,7 @@
     var $list, selectOption;
     $list = $('#cv');
     $list.isotope({
-      layoutMode: 'fitRows',
+      layoutMode: 'straightDown',
       getSortData: {
         date: function($elem) {
           return $elem.attr('data-date');
