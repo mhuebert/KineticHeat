@@ -1,0 +1,13 @@
+<li class='element {% for cat in element.categories %} {{ cat }} {% endfor %}' data-date='{{ element.date }}' data-filter='{{ element.categories[1] }}' data-length='{{ element.length }}' data-passion='{{ element.passion }}'>
+  <a class='name' href='{{ element.url }}'>{{ element.name }}</a>
+  {% if element.title %}
+  <div class='title'>{{ element.title }}</div>
+  {% endif %}
+  {% if element.length %}
+  <div class='length'>{{ element.length }}m</div>
+  {% endif %}
+  <div class='detail'>{{ element.detail }}</div>
+  {% if element.locations %}
+  <div class='locations'>[{{ element.locations }}]</div>
+  {% endif %}
+</li>

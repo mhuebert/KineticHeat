@@ -1,0 +1,12 @@
+%li{   :class => "element {% for cat in element.categories %} {{ cat }} {% endfor %}", :"data-filter" => "{{ element.categories[1] }}", :"data-length" => "{{ element.length }}", :"data-date" => "{{ element.date }}", :"data-passion" => "{{ element.passion }}"}
+  %a.name{:href => "{{ element.url }}"} {{ element.name }}
+  {% if element.title %}
+  .title {{ element.title }}
+  {% endif %}
+  {% if element.length %}
+  .length {{ element.length }}m
+  {% endif %}  
+  .detail {{ element.detail }}
+  {% if element.locations %}
+  .locations [{{ element.locations }}]
+  {% endif %}

@@ -1,0 +1,116 @@
+body {
+  padding: 25px 30px;
+  background-color: #eeeeee;
+  color: black;
+  font-family: "helvetica neue", Arial, sans-serif; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+  a:hover {
+    text-decoration: underline; }
+
+h1.matt {
+  font-size: 300%;
+  font-weight: bold;
+  display: block;
+  margin: 0 0 20px -3px;
+  color: #dddddd; }
+
+.view-controller {
+  padding: 19px 10px 0;
+  display: inline-block;
+  font-weight: bold;
+  position: relative;
+  border-left: 1px solid #cccccc;
+  margin: 0 0 20px 0; }
+  .view-controller.first {
+    border-left: none;
+    margin-left: -8px; }
+  .view-controller .heading {
+    position: absolute;
+    font-size: 79%;
+    text-transform: uppercase;
+    top: 0;
+    left: 10px;
+    font-weight: normal;
+    color: #aaaaaa;
+    letter-spacing: 0.07em; }
+  .view-controller a {
+    display: inline-block;
+    color: #999999;
+    cursor: pointer;
+    letter-spacing: 0.01em;
+    margin-left: 10px; }
+    .view-controller a.first {
+      margin-left: 0; }
+    .view-controller a.active {
+      color: black;
+      text-decoration: underline;
+      cursor: default; }
+
+.elements {
+  padding-bottom: 2px; }
+
+.element {
+  display: inline-block;
+  float: left;
+  background-color: #f9f9f9;
+  font-size: 100%;
+  margin: 0;
+  padding: 2px 18px 5px 6px;
+  border-width: 1px 2px 2px 1px;
+  border-style: solid;
+  border-color: #eaeaea #dedede #dedede #eaeaea;
+  position: relative;
+  margin: 2px 0 0 2px; }
+  .element:hover {
+    background-color: white;
+    border-color: #dddddd #cccccc #cccccc #dddddd;
+    z-index: 1; }
+    .element:hover .detail {
+      color: #444444; }
+
+.detail {
+  display: block;
+  font-size: 80%;
+  color: #888888;
+  margin: 5px 0 0 0; }
+  .detail a {
+    color: #5669b2; }
+
+.name {
+  color: #5669b2;
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: bold;
+  display: inline-block; }
+
+.title {
+  display: inline-block;
+  font-size: 69%;
+  text-transform: uppercase;
+  color: #666666;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin-right: 10px; }
+
+.locations {
+  color: #999999;
+  font-size: 65%;
+  display: none; }
+
+.length {
+  right: 5px;
+  top: 6px;
+  position: absolute;
+  display: inline-block;
+  font-size: 69%;
+  color: #aaaaaa;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: none; }
+
+.off {
+  color: black; }

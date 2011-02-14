@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta charset='utf-8' />
+    <meta content='Matthew Huebert' name='author' />
+    <meta content='{{page.meta}}' name='description' />
+    <meta content='initial-scale = 1.0' name='viewport' />
+    <link href='/css/reset.css' rel='stylesheet' type='text/css' />
+    <link href='/css/styles.css' rel='stylesheet' type='text/css' />
+    {% include javascripts.html %}
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

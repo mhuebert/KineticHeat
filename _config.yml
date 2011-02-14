@@ -1,0 +1,125 @@
+elements:
+  - categories: [ cv, entrepreneurial ]
+    name: "Startup #3"
+    title: Founder
+    detail: "Stealth mode startup&mdash;<a href='#'>sign up</a> for the beta"
+    length: 5
+    date: 2010-09
+    passion: 10
+  - categories: [ cv, education ]
+    name: School of Discipleship
+    title: student
+    locations: Winnipeg, Canada
+    detail: Theology & cultural studies in Canada and Guatemala (pre-atheism)
+    length: 8
+    date: 2002-04
+    passion: 8
+  - categories: [ cv, education ]
+    name: Athabasca University
+    title: student
+    detail: Political Economy, A+ average (two terms)
+    length: 8.1
+    date: 2005-04
+    passion: 4
+  - categories: [ cv, education ]
+    name: University of Saskatchewan 
+    title: student
+    locations: Saskatoon, Canada
+    detail: Arts & Science, 91% average (two terms)
+    length: 8.2
+    date: 2004-04
+    passion: 4
+  - categories: [ cv, education ]
+    name: Forum for International Trade Training
+    title: student
+    detail: A short course in Global entrepreneurship
+    length: 3.1
+    date: 2003-06
+    passion: 4
+  - categories: [ cv, non-profit ]
+    name: Youth Unlimited 
+    title: intern
+    locations: Washington State
+    detail: Mentoring youth in Washington State
+    length: 7
+    date: 2002-12
+    passion: 4
+  - categories: [ cv, non-profit ]
+    name: Habitat for Humanity
+    title: intern
+    locations: Guatemala
+    detail: Design & communications in the Guatemala national office
+    length: 3.5
+    date: 2003-12
+    passion: 8
+  - categories: [ cv, non-profit, entrepreneurial ]
+    name: Junior Team Canada
+    title: team leader
+    locations: China, Singapore, Malaysia, Chile
+    detail: Strengthening economic relations with Asia & South America
+    length: 14
+    date: 2005-08
+    passion: 9
+  - categories: [ cv, non-profit, entrepreneurial ]
+    name: YouthInside 
+    title: co-founder
+    locations: Hong Kong
+    detail: Encouraging youth to start international companies
+    length: 3.2
+    date: 2006-01
+    passion: 9
+  - categories: [ cv, entrepreneurial, technical ]
+    name: Bodo
+    title: co-founder
+    locations: Beijing, China; Calgary, Canada
+    detail: Wellness product design, retail and distribution company
+    length: 24
+    date: 2010-08
+    passion: 9.1
+  - categories: [ cv, entrepreneurial, technical ]
+    name: Design & Development
+    title: Consultant
+    detail: Using design, psychology, and technology to achieve goals
+    length: 48
+    date: 2008-01
+    passion: 5
+  - categories: [ cv, entrepreneurial ]
+    name: Ethical Style 
+    title: Founder
+    locations: Guatemala, South East Asia, Canada
+    detail: For-profit venture supporting artesans in developing economies
+    length: 12
+    date: 2004-12
+    passion: 10
+  - categories: [ cv, entrepreneurial ]
+    name: Saskatchewan Trade & Export Partnership 
+    title: intern
+    locations: Saskatoon, Canada
+    detail: Helping local businesses sell to the world
+    length: 3
+    date: 2005-08
+    passion: 4
+  - categories: [ cv, "never again" ]
+    name: Nata Reforestation & Management
+    title: treeplanter
+    locations: Tumbler Ridge, British Columbia
+    detail: Did it for the money
+    length: 3
+    date: 2002-08
+    passion: 1
+  - categories: [ cv, awards ]
+    name: National Millennium Excellence Award
+    title: recipient
+    locations: Ottawa
+    detail: Top 100 of 7000 applicants
+    date: 2003-08
+    passion: 0
+    length: 0
+  - categories: [ cv, awards ]
+    name: Kramer Scholarship
+    title: recipient
+    locations: University of Saskatchewan
+    detail: For "outstanding leadership"
+    date: 2003-09
+    passion: 0
+    length: 0
