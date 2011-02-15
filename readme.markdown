@@ -1,4 +1,4 @@
-# Matt.is CV.
+# Matt.is CV
 
 Two years ago I designed a [single-page static CV](http://www.scribd.com/doc/9683205/Resume-with-horizontal-timeline-and-world-map) integrating a timeline and world map.
 
