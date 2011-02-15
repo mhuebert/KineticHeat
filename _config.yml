@@ -2,7 +2,7 @@ elements:
   - categories: [ cv, entrepreneurial ]
     name: "Startup #3"
     title: Founder
-    detail: "A semi-secret startup&mdash;<a href='#'>sign up</a> for the beta"
+    detail: "A semi-secret startup&mdash;<a href='http://overlap.me'>sign up</a> for the beta"
     length: 5
     years: 2010-2011
     date: 2010-09
