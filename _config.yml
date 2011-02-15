@@ -36,7 +36,7 @@ elements:
   - categories: [ cv, education ]
     name: Forum for International Trade Training
     title: student
-    detail: A short course in Global Entrepreneurship
+    detail: A short course in "global entrepreneurship"
     length: 3
     years: 2003
     date: 2003-06
@@ -89,7 +89,7 @@ elements:
   - categories: [ cv, entrepreneurial, technical ]
     name: Design & Development
     title: Consultant
-    detail: Improving business with design, psychology, and technology
+    detail: Helping businesses achieve more with design, psychology, and technology
     length: 48
     years: 1999-2011
     date: 2008-01
@@ -107,7 +107,7 @@ elements:
     name: Saskatchewan Trade & Export Partnership 
     title: intern
     locations: Saskatoon, Canada
-    detail: Helping local businesses reach international markets
+    detail: Helping local businesses develop international markets
     length: 3
     years: 2005
     date: 2005-08
