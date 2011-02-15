@@ -7,10 +7,7 @@
   </a>
   <div class='detail'>
     {{ element.detail }}
-    {% if element.length %}
-    <br />
-    <div class='length'>{{ element.length }} months, {{ element.years }}</div>
-    {% endif %}
+    <div class='length'>{% if element.length %}{{ element.length }} months,{% endif %} {{ element.years }}</div>
   </div>
   {% if element.locations %}
   <div class='locations'>[{{ element.locations }}]</div>
