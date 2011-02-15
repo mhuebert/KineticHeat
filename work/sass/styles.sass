@@ -2,12 +2,25 @@ $extra_light_blue: #D1E5F8
 $medium_blue: #A8D3F8
 body
   padding: 0 0 25px 0
-  background-color: #eee
+  background-color: #000
   color: #000
   font-family: "helvetica neue", Arial, sans-serif
+.bg
+  position: absolute
+  right: 730px
+  top: 0
+  background-image: url("/images/bg.jpg")
+  background-repeat: no-repeat
+  background-color: #000
+  background-position: top right
+  width:  615px
+  height: 545px
 .container
-  margin: 20px auto
+  // margin: 20px auto
   width: 700px
+  float: right
+  background-color: #eee
+  padding: 30px 0 50px 30px
 a
   text-decoration: none
   outline: none
@@ -17,7 +30,7 @@ h1.matt
   font-size: 300%
   font-weight: bold
   display: block
-  margin: 0 0 20px -3px
+  margin: 0 0 20px -1px
   color: #ddd
 .view-controller
   padding: 19px 10px 0
@@ -25,7 +38,7 @@ h1.matt
   font-weight: bold
   position: relative
   border-left: 1px solid #ccc
-  margin: 0 0 20px 0
+  margin: 0 0 28px
   font-size: 90%
   &.first
     border-left: none
@@ -61,7 +74,7 @@ h1.matt
   font-size: 100%
   // padding: 2px 4px 2px 0
   position: relative
-  margin: 0 0 3px 0
+  margin: 0 0 4px 0
 
 .detail
   display: inline-block
