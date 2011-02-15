@@ -2,23 +2,26 @@ elements:
   - categories: [ cv, entrepreneurial ]
     name: "Startup #3"
     title: Founder
-    detail: "stealth mode startup&mdash;<a href='#'>sign up</a> for the beta"
+    detail: "Stealth mode startup&mdash;<a href='#'>sign up</a> for the beta"
     length: 5
+    years: 2010-2011
     date: 2010-09
     passion: 10
   - categories: [ cv, education ]
     name: School of Discipleship
     title: student
     locations: Winnipeg, Canada
-    detail: theology & cultural studies in Canada and Guatemala (pre-atheism)
+    detail: Theology & cultural studies in Canada and Guatemala (pre-atheism)
     length: 8
+    years: 2001-2002
     date: 2002-04
     passion: 8
   - categories: [ cv, education ]
     name: Athabasca University
     title: student
     detail: Political Economy, A+ average (two terms)
-    length: 8.1
+    length: 8
+    years: 2004-2005
     date: 2005-04
     passion: 4
   - categories: [ cv, education ]
@@ -26,100 +29,113 @@ elements:
     title: student
     locations: Saskatoon, Canada
     detail: Arts & Science, 91% average (two terms)
-    length: 8.2
+    length: 8
+    years: 2003-2004
     date: 2004-04
     passion: 4
   - categories: [ cv, education ]
     name: Forum for International Trade Training
     title: student
-    detail: a short course in Global Entrepreneurship
-    length: 3.1
+    detail: A short course in Global Entrepreneurship
+    length: 3
+    years: 2003
     date: 2003-06
     passion: 4
   - categories: [ cv, non-profit ]
     name: Youth Unlimited 
     title: intern
     locations: Washington State
-    detail: mentoring youth in Washington State
-    length: 7
+    detail: Mentoring youth in Washington State
+    length: 3
+    years: 2002
     date: 2002-12
     passion: 4
   - categories: [ cv, non-profit ]
     name: Habitat for Humanity
     title: intern
     locations: Guatemala
-    detail: design & communications in the Guatemala national office
+    detail: Design & communications in the Guatemala national office
     length: 3.5
+    years: 2003
     date: 2003-12
     passion: 8
   - categories: [ cv, non-profit, entrepreneurial ]
     name: Junior Team Canada
     title: team leader
     locations: China, Singapore, Malaysia, Chile
-    detail: strengthening economic relations with Asia & South America
+    detail: Strengthening economic relations with Asia & South America
     length: 14
+    years: 2004-2005
     date: 2005-08
     passion: 9
   - categories: [ cv, non-profit, entrepreneurial ]
     name: YouthInside 
     title: co-founder
     locations: Hong Kong
-    detail: encouraging youth to start international companies
-    length: 3.2
+    detail: Encouraging youth to start international companies
+    length: 3
+    years: 2005-2006
     date: 2006-01
     passion: 9
   - categories: [ cv, entrepreneurial, technical ]
     name: Bodo
     title: co-founder
     locations: Beijing, China; Calgary, Canada
-    detail: wellness product design, retail and distribution company
+    detail: Wellness product design, retail and distribution company
     length: 24
+    years: 2006-2008
     date: 2010-08
     passion: 9.1
   - categories: [ cv, entrepreneurial, technical ]
     name: Design & Development
     title: Consultant
-    detail: improving business with design, psychology, and technology
+    detail: Improving business with design, psychology, and technology
     length: 48
+    years: 1999-2011
     date: 2008-01
     passion: 5
   - categories: [ cv, entrepreneurial ]
     name: Ethical Style 
     title: Founder
     locations: Guatemala, South East Asia, Canada
-    detail: a for-profit venture supporting artesans in developing economies
+    detail: A for-profit venture supporting artesans in developing economies
     length: 12
+    years: 2003-2004
     date: 2004-12
     passion: 10
   - categories: [ cv, entrepreneurial ]
     name: Saskatchewan Trade & Export Partnership 
     title: intern
     locations: Saskatoon, Canada
-    detail: helping local businesses reach international markets
+    detail: Helping local businesses reach international markets
     length: 3
+    years: 2005
     date: 2005-08
     passion: 4
   - categories: [ cv, "never again" ]
     name: Nata Reforestation & Management
     title: treeplanter
     locations: Tumbler Ridge, British Columbia
-    detail: did it for the money
+    detail: Did it for the money
     length: 3
+    years: 2002
     date: 2002-08
     passion: 1
   - categories: [ cv, awards ]
     name: National Millennium Excellence Award
     title: recipient
     locations: Ottawa
-    detail: top 100 of 7000 applicants
-    date: 2003-08
+    detail: Top 100 of 7000 applicants
+    date: 2003-09
     passion: 0
     length: 0
+    years: 2003-2005
   - categories: [ cv, awards ]
     name: Kramer Scholarship
     title: recipient
     locations: University of Saskatchewan
-    detail: for "outstanding leadership"
-    date: 2003-09
+    detail: For "outstanding leadership"
+    date: 2003-08
+    years: 2003
     passion: 0
     length: 0

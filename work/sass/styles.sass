@@ -7,8 +7,7 @@ body
   font-family: "helvetica neue", Arial, sans-serif
 .container
   margin: 20px auto
-  width: 800px
-  text-align: center
+  width: 700px
 a
   text-decoration: none
   outline: none
@@ -21,12 +20,7 @@ h1.matt
   margin: 0 0 20px -3px
   color: #ddd
 .view-controller
-  // padding: 2px 18px 5px 6px
-  // border-width: 1px 2px 2px 1px
-  // border-style: solid
-  // border-color: #eaeaea #DEDEDE #DEDEDE #eaeaea
-  // display: inline-block
-  // background-color: #f9f9f9
+
 
   padding: 19px 10px 0
   display: inline-block
@@ -35,9 +29,7 @@ h1.matt
   border-left: 1px solid #ccc
   margin: 0 0 20px 0
   font-size: 90%
-  // &:hover
-  //   background-color: #f9f9f9
-  //   border-color: #ddd #ccc #ccc #ddd
+
   &.first
     border-left: none
     margin-left: -8px
@@ -66,60 +58,70 @@ h1.matt
   padding-bottom: 2px
   width: 700px
   display: inline-block
+  text-align: left
 .element
-
+  display: inline-block
   font-size: 100%
-  margin: 0
-  padding: 4px 4px 4px 95px
-
+  // padding: 2px 4px 2px 0
   position: relative
-  // margin: 2px 0 0 2px
-  &:hover
-    // background-color: #f9f9f9
-    // border-color: #ddd #ccc #ccc #ddd
-    // z-index: 1
-    // .detail, .title
-    //   color: #777
+  margin: 0 0 3px 0
+
 .detail
-  display: inline
+  display: inline-block
+  vertical-align: top
   font-size: 80%
-  color: #888
-  margin: 5px 0 0 0
+  color: #555
+  margin: 3px 0 0 0
   a
     color: #5669B2
 .name
+  padding: 3px 18px 3px 5px
+  border-width: 1px 2px 2px 1px
+  border-style: solid
+  border-color: #eaeaea #DEDEDE #DEDEDE #eaeaea
   color: #5669B2
   text-decoration: none
   font-size: 90%
   font-weight: bold
   display: inline-block
+  position: relative
+  background-color: #f9f9f9
+  &:hover
+    background-color: #fff
+    border-color: #ddd #ccc #ccc #ddd
+    z-index: 1
+    text-decoration: none
+    .title
+      color: #777
 .title
-  display: inline-block
+  display: block
   font-size: 69%
   text-transform: uppercase
   color: #aaa
   font-weight: bold
   letter-spacing: 0.03em
-  margin-right: 3px
-  text-align: right
-  width: 90px
-  position: absolute
-  top: 7px
-  left: 0
+  padding: 5px 0 0 0
+  // margin-right: 3px
+  // text-align: right
+  // width: 90px
+  // position: absolute
+  // bottom: 5px
+  // left: 5px
 .locations
   color: #999
   font-size: 65%
   display: none
 .length
-  right: 5px
-  top: 6px
-  position: absolute
+  // right: 5px
+  // top: 6px
+  // position: absolute
   display: inline-block
-  font-size: 69%
+  font-size: 90%
   color: #aaa
   font-weight: bold
   letter-spacing: 0.03em
-  text-transform: uppercase
-  display: none
+  margin-top: 6px
+  // text-transform: uppercase
+  // display: none
 .off
   color: black
