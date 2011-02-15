@@ -6,10 +6,8 @@
     {% endif %}
   .detail 
     {{ element.detail }}
-    {% if element.length %}
-    <br />
-    .length {{ element.length }} months, {{ element.years }}
-    {% endif %}
+    .length {% if element.length %}{{ element.length }} months,{% endif %} {{ element.years }}
+    
   {% if element.locations %}
   .locations [{{ element.locations }}]
   {% endif %}
