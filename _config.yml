@@ -128,7 +128,6 @@ elements:
     detail: Top 100 of 7000 applicants
     date: 2003-09
     passion: 0
-    length: 0
     years: 2003-2005
   - categories: [ cv, awards ]
     name: Kramer Scholarship
@@ -138,4 +137,3 @@ elements:
     date: 2003-08
     years: 2003
     passion: 0
-    length: 0
