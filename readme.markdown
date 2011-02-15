@@ -1,4 +1,4 @@
-Matt.is CV.
+## Matt.is CV.
 
 Two years ago I designed a single-page static CV integrating a timeline and world map: http://www.scribd.com/doc/9683205/Resume-with-horizontal-timeline-and-world-map
 
@@ -15,7 +15,8 @@ However, new advantages are introduced:
 * Animated transitions give the user an intuitive grasp of an activity's ranking across two dimensions. For example, if you switch from "Time Invested" to "Passion", activities which animate downward indicate a mismatch between what I'm passionate about vs. what I spend my time on.
 * It's now easy for me to embed links to external resources.
 
-Requires:
+## Requirements:
+
 * Jekyll - https://github.com/mojombo/jekyll
 * Jekyll_ext - https://github.com/rfelix/jekyll_ext
 * HAML
