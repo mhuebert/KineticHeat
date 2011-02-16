@@ -100,13 +100,6 @@ h1.matt {
   display: inline-block;
   position: relative;
   background-color: #f9f9f9; }
-  .name:hover {
-    background-color: white;
-    border-color: #dddddd #cccccc #cccccc #dddddd;
-    z-index: 1;
-    text-decoration: none; }
-    .name:hover .title {
-      color: #777777; }
 
 .title {
   display: block;
