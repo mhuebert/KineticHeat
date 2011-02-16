@@ -100,6 +100,8 @@ h1.matt {
   display: inline-block;
   position: relative;
   background-color: #f9f9f9; }
+  .name:hover {
+    text-decoration: none; }
 
 .title {
   display: block;
