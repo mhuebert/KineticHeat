@@ -101,7 +101,8 @@ h1.matt {
   position: relative;
   background-color: #f9f9f9; }
   .name:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    cursor: default; }
 
 .title {
   display: block;
