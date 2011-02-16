@@ -1,6 +1,6 @@
 (function() {
   $(function() {
-    var $list, selectOption;
+    var $list, link, selectOption;
     $list = $('#cv');
     $list.isotope({
       layoutMode: 'straightDown',
@@ -15,8 +15,8 @@
           return parseFloat($elem.attr('data-passion'));
         }
       },
-      filter: "*",
-      sortBy: "date",
+      filter: ".entrepreneurial",
+      sortBy: "passion",
       sortAscending: false,
       animationEngine: 'jquery'
     });
@@ -34,7 +34,7 @@
       });
       return false;
     });
-    return $('#sort a').click(function() {
+    $('#sort a').click(function() {
       var $this, asc, sortName;
       $this = $(this);
       selectOption($this);
@@ -46,5 +46,13 @@
       });
       return false;
     });
+    $(".nav a.active").removeClass("active");
+    if (window.location.pathname === "/") {
+      return $(".nav a.cv").addClass("active");
+    } else if ((link = $(".nav a[href*=" + window.location.pathname + "]")).length > 0) {
+      return link.addClass("active");
+    } else {
+      return $(".nav a.blog").addClass("active");
+    }
   });
 }).call(this);

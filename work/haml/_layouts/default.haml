@@ -1,17 +1,22 @@
 <!doctype html>
 %html
   %head
-    %title {{ page.title }}
+    %title {{ page.title }} • Matthew Huebert
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     %meta{:charset => "utf-8"}
     %meta{:name => "author", :content => "Matthew Huebert"}
     %meta{:name => "description", :content => "{{page.meta}}"}
     %meta{:name => 'viewport', :content => 'initial-scale = 1.0'} 
     %link{:rel=>"stylesheet", :href => "/css/reset.css", :type => "text/css"}
-    %link{:rel=>"stylesheet", :href => "/css/styles.css", :type => "text/css"}  
+    %link{:rel=>"stylesheet", :href => "/css/styles.css", :type => "text/css"}
+    %link{:href=>"http://matt.is", :rel=>"alternate", :title=>"Matthew Huebert", :type=>"application/atom+xml"}
     {% include javascripts.html %}
   %body
     .bg
     .container
+      {% include nav.html %}
+      %h1.matt Matthew Huebert
       {{ content }}
+      .bottom
+        {% include nav.html %}
     

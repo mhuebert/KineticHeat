@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} • Matthew Huebert</title>
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <meta charset='utf-8' />
     <meta content='Matthew Huebert' name='author' />
@@ -9,12 +9,18 @@
     <meta content='initial-scale = 1.0' name='viewport' />
     <link href='/css/reset.css' rel='stylesheet' type='text/css' />
     <link href='/css/styles.css' rel='stylesheet' type='text/css' />
+    <link href='http://matt.is' rel='alternate' title='Matthew Huebert' type='application/atom+xml' />
     {% include javascripts.html %}
   </head>
   <body>
     <div class='bg'></div>
     <div class='container'>
+      {% include nav.html %}
+      <h1 class='matt'>Matthew Huebert</h1>
       {{ content }}
+      <div class='bottom'>
+        {% include nav.html %}
+      </div>
     </div>
   </body>
 </html>

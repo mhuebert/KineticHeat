@@ -1,0 +1,23 @@
+\---
+title: Blog
+layout: default
+\---
+%ul.posts
+  {% for post in site.posts %}
+  %li
+    .date {{ post.date | date_to_string }}
+    %a{:href=>"{{ post.url }}"} {{ post.title }}
+  {% endfor %}
+  
+%ul.posts
+  %li
+    .date Twitter:
+    %a{:href=>"http://twitter.com/mhuebert"} @mhuebert
+  
+  %li  
+    .date Facebook:
+    %a{:href=>"http://facebook.com/matt.huebert"} facebook.com/matt.huebert
+
+  %li  
+    .date LinkedIn:
+    %a{:href=>"http://ca.linkedin.com/in/matthewhuebert"} ca.linkedin.com/in/matthewhuebert

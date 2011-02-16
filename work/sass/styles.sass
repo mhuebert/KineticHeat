@@ -1,5 +1,93 @@
+
 $extra_light_blue: #D1E5F8
 $medium_blue: #A8D3F8
+
+
+// ==== CSS3 SASS MIXINS ==== 
+// https://github.com/madr/css3-sass-mixins
+
+//  Should IE filters be used or not?
+//  PROS: gradients, drop shadows etc will be handled by css.
+//  CONS: will harm the site performance badly, 
+//        especially on sites with heavy rendering and scripting.
+$useIEFilters: 0
+
+// might be 0 or 1. disabled by default.
+
+=border-radius($values)
+  -moz-border-radius: $values
+  -webkit-border-radius: $values
+  border-radius: $values
+
+=box-shadow($x, $y, $offset, $hex, $ie: $useIEFilters)
+  -moz-box-shadow: $x $y $offset $hex
+  -o-box-shadow: $x $y $offset $hex
+  -webkit-box-shadow: $x $y $offset $hex
+  box-shadow: $x $y $offset $hex
+  @if $ie == 1
+    $iecolor: "#" + red($hex) + green($hex) + blue($hex)
+    filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=#{$x}, OffY=#{$y}, Color='#{$iecolor}')
+    -ms-filter: quote(progid:DXImageTransform.Microsoft.dropshadow(OffX=#{$x}, OffY=#{$y}, Color='#{$iecolor}'))
+
+=linear-gradient($from, $to, $ie: $useIEFilters)
+  @if $ie != 1
+    background-color: $to
+  background-image: -moz-linear-gradient(top, $from, $to)
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, $from), color-stop(1, $to))
+  @if $ie == 1
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}')
+    -ms-filter: quote(progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}'))
+
+=rgba($hex, $alpha, $ie: $useIEFilters)
+  @if $ie == 1
+    $hexopac: "#" + ceil($alpha * 255 / 16 * 10) + $hex
+    background-color: none
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$hexopac}',EndColorStr='#{$hexopac}}')
+    -ms-filter: quote(progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$hexopac}',EndColorStr='#{$hexopac}'))
+  @else
+    background-color: $hex
+    background-color: rgba(red($hex), green($hex), blue($hex), $alpha)
+
+=rotate($deg, $ie: $useIEFilters)
+  -moz-transform: rotate(#{$deg}deg)
+  -o-transform: rotate(#{$deg}deg)
+  -webkit-transform: rotate(#{$deg}deg)
+  @if $ie == 1
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.99144486137381, M12=--0.130526192220052, M21=0.130526192220052, M22=0.99144486137381)
+    -ms-filter: quote(progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.99144486137381, M12=--0.130526192220052, M21=0.130526192220052, M22=0.99144486137381))
+    zoom: 1
+
+=transition($value)
+  -moz-transition: $value
+  -o-transition: $value
+  -webkit-transition: $value
+  transition: $value
+
+// ==== /CSS3 SASS MIXINS ====
+p
+  margin-bottom: 20px
+  line-height: 150%
+  margin-right: 90px
+  &.last
+    margin-bottom: 0
+p, .posts
+  a
+    text-decoration: underline
+    color: #8F050D
+.posts
+  line-height: 150%
+  margin-bottom: 30px
+  .date
+    display: inline-block
+    width: 108px
+    text-align: right
+    margin-right: 10px
+    color: #bbb
+  a
+    display: inline
+.post-title
+  font-weight: bold
+  margin-bottom: 20px
 body
   padding: 0 0 25px 0
   background-color: #000
@@ -14,24 +102,51 @@ body
   background-color: #000
   background-position: top right
   width:  792px
-  height: 621px
+  height: 589px
 .container
   // margin: 20px auto
+  min-height: 589px
   width: 700px
   float: right
   background-color: #eee
-  padding: 30px 0 50px 30px
+  padding: 0 0 50px 30px
+  position: relative
 a
   text-decoration: none
   outline: none
   &:hover
     text-decoration: underline
 h1.matt
-  font-size: 300%
+  font-size: 400%
   font-weight: bold
   display: block
-  margin: 0 0 20px -1px
+  margin: 0 0 23px -1px
   color: #ddd
+.bottom
+  position: absolute
+  bottom: 0
+  .nav
+    margin: 0 50% 0 0
+.nav
+  background-color: #F5F5F5
+  display: inline-block
+  float: left
+  margin: 0 50% 20px 0
+  padding: 5px
+  a
+    color: #ccc
+    font-size: 90%
+    display: inline-block
+    margin: 0 3px
+    font-weight: bold
+    &.active
+      color: #000
+    &:hover
+      color: #aaa
+    &.active:hover
+      color: #000
+      text-decoration: none
+      cursor: default
 .view-controller
   padding: 19px 10px 0
   display: inline-block
@@ -78,7 +193,7 @@ h1.matt
 .detail
   display: inline-block
   vertical-align: top
-  font-size: 80%
+  font-size: 90%
   color: #555
   margin: 3px 0 0 0
   a
@@ -118,10 +233,13 @@ h1.matt
   display: none
 .length
   display: block
-  font-size: 90%
-  color: #aaa
+  font-size: 85%
+  color: #bbb
   font-weight: bold
   letter-spacing: 0.03em
-  margin-top: 6px
+  margin: 3px 0 0 1px
+.photography img
+  @include box-shadow(0, 0, 10px, #555555)
+  margin: 20px 0
 .off
   color: black

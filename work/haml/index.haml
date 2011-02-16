@@ -2,17 +2,16 @@
 title: Matthew Huebert
 layout: default
 \---
-%h1.matt Matthew Huebert
 #sort.view-controller.first
   .heading Sort
-  %a.active.first{:href=>"#date"} Most Recent
+  %a.first{:href=>"#date"} Most Recent
   %a{:href=>"#length"} Time Invested
-  %a{:href=>"#passion"} Passion
+  %a.active{:href=>"#passion"} Passion
 #filter.view-controller
   .heading View
-  %a.first.active{:href=>"#*"} All
+  %a.first{:href=>"#*"} All
   %a{:href=>"#.education"} Education
-  %a{:href=>"#.entrepreneurial"} Entrepreneurial
+  %a.active{:href=>"#.entrepreneurial"} Entrepreneurial
   %a{:href=>"#.non-profit"} Non-Profit
   %a{:href=>"#.awards"} Awards
 %ul#cv.elements

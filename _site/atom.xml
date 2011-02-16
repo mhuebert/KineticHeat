@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Matthew Huebert</title>
+ <link href="http://matt.is/atom.xml" rel="self"/>
+ <link href="http://matt.is/"/>
+ <updated>2011-02-16T03:18:58-08:00</updated>
+ <id>http://matt.is/</id>
+ <author>
+   <name>Matthew Huebert</name>
+   <email>matthew@huebert.ca</email>
+ </author>
+
+ 
+ <entry>
+   <title>About This Site</title>
+   <link href="http://matt.is/explaining/about-this-site"/>
+   <updated>2011-02-16T00:00:00-08:00</updated>
+   <id>http://matt.is/explaining/about-this-site</id>
+   <content type="html">&lt;div class='post-title'&gt;About This Site&lt;/div&gt;
+&lt;p&gt;
+  I built this site with
+  &lt;a href='https://github.com/mojombo/jekyll'&gt;Jekyll,&lt;/a&gt;
+  and it’s hosted on
+  &lt;a href='http://pages.github.com'&gt;GitHub Pages.&lt;/a&gt;
+  If you’re into this sort of thing, you can
+  &lt;a href='https://github.com/mhuebert/matt.is-cv'&gt;view the source.&lt;/a&gt;
+  I’m using modified
+  &lt;a href='http://haml-lang.com/'&gt;HAML,&lt;/a&gt;
+  &lt;a href='sass-lang.com/'&gt;SASS&lt;/a&gt;
+  and
+  &lt;a href='http://jashkenas.github.com/coffee-script/'&gt;CoffeeScript&lt;/a&gt;
+  extensions, which make coding a lot more fun, and the
+  &lt;a href='http://http://isotope.metafizzy.co/'&gt;Isotope&lt;/a&gt;
+  jQuery plugin drives the
+  &lt;a href='/'&gt;CV&lt;/a&gt;
+  interface.
+&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

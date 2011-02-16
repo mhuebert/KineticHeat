@@ -15,8 +15,8 @@ $ ->
       passion: ( $elem ) ->
         return parseFloat($elem.attr('data-passion'))
       
-    filter: "*"
-    sortBy: "date"
+    filter: ".entrepreneurial"
+    sortBy: "passion"
     sortAscending: false
     animationEngine: 'jquery'
 
@@ -43,6 +43,16 @@ $ ->
       sortBy : sortName
       sortAscending : asc
     return false
+    
+  $(".nav a.active").removeClass("active")
+  if window.location.pathname == "/"
+    $(".nav a.cv").addClass("active")
+  else if (link = $(".nav a[href*="+window.location.pathname+"]")).length > 0
+    link.addClass("active")
+  else
+    $(".nav a.blog").addClass("active")
+    
+  
 
   # currentLayout = 'fitRows'
 
