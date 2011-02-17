@@ -9,14 +9,17 @@
     %meta{:name => 'viewport', :content => 'initial-scale = 1.0'} 
     %link{:rel=>"stylesheet", :href => "/css/reset.css", :type => "text/css"}
     %link{:rel=>"stylesheet", :href => "/css/styles.css", :type => "text/css"}
+    %link{:rel=>"shortcut icon", :href=>"/favicon.ico"}
     %link{:href=>"http://matt.is", :rel=>"alternate", :title=>"Matthew Huebert", :type=>"application/atom+xml"}
     {% include javascripts.html %}
   %body
     .bg
+      %img{:src=>"/images/matthew-huebert-bg.jpg"}
     .container
       {% include nav.html %}
       %h1.matt Matthew Huebert
       {{ content }}
       .bottom
+        {% include facebook.html %}
         {% include nav.html %}
     
