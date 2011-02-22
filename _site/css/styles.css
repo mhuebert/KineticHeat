@@ -65,7 +65,8 @@ h1.matt {
   font-weight: bold;
   display: block;
   margin: 0 0 23px -1px;
-  color: #dddddd; }
+  color: #dddddd;
+  clear: both; }
 
 .bottom {
   position: absolute;
