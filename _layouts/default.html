@@ -22,6 +22,9 @@
       <h1 class='matt'>Matt Huebert</h1>
       {{ content }}
       <div class='bottom'>
+        {% if disqus_hide == null %}
+        {% include disqus.html %}
+        {% endif %}
         {% include facebook.html %}
         {% include nav.html %}
       </div>
