@@ -25,7 +25,9 @@
       {% include disqus.html %}
       {% endif %}
       <div class='bottom'>
+        {% if disqus_hide != null %}
         {% include facebook.html %}
+        {% endif %}
         {% include nav.html %}
       </div>
     </div>
