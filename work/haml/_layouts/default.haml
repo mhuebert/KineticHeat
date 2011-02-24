@@ -19,10 +19,10 @@
       {% include nav.html %}
       %h1.matt Matt Huebert
       {{ content }}
+      {% if disqus_hide == null %}
+      {% include disqus.html %}
+      {% endif %}
       .bottom
-        {% if disqus_hide == null %}
-        {% include disqus.html %}
-        {% endif %}
         {% include facebook.html %}
         {% include nav.html %}
     {% include woopra.html %}
