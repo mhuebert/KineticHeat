@@ -6,9 +6,9 @@ category: proposing
 
 So I'm sitting at "Startup Drinks":http://www.startupdrinks.ca/ in Vancouver last night when "Delano Mandelbaum":http://goldensword.ca/, the singular human force behind website monitoring tool "BlameStella":https://www.blamestella.com, lends to my ears a productivity tip which I think might just change the world, if only it is paired with a great UX.
 
-The trick is simple: whenever you find yourself consciously wasting your time (__time__, you recall? that precious gift of life that "brilliant modern moguls (Mark Pincus)":http://en.wikipedia.org/wiki/Mark_Pincus make it their explicit aim to absorb, sponge-like...), *switch your computer screen to greyscale*. On a mac, you can either adjust these settings "manually":http://osxdaily.com/2010/05/04/make-your-mac-run-in-grayscale-mode/ or use "this applescript":/post-images/GrayscaleToggle.zip.
+The trick is simple: whenever you find yourself consciously wasting your time (__time__, you recall? that precious gift of life that "brilliant modern moguls (Mark Pincus)":http://en.wikipedia.org/wiki/Mark_Pincus make it their explicit aim to absorb, sponge-like...), *switch your computer screen to grayscale*. On a mac, you can either adjust these settings "manually":http://osxdaily.com/2010/05/04/make-your-mac-run-in-grayscale-mode/ or use "this applescript":/post-images/GrayscaleToggle.zip.
 
-Life in greyscale is weird... disorienting, strange, foreign. You can't help but realize something in your life isn't.. quite.. right. It doesn't take long for the subtle discomfort to nudge me back into the real-world or back to work. 
+Life in grayscale is weird... disorienting, strange, foreign. You can't help but realize something in your life isn't.. quite.. right. It doesn't take long for the subtle discomfort to nudge me back into the real-world or back to work. 
 
 !/post-images/grayscale-facebook.jpg!
 
@@ -16,4 +16,4 @@ Most of us can't avoid social media, hell--we rely on it. The evil is not connec
 
 We need a reminder: life online is life in monochrome.
 
-The problem with this idea is that it's awkward without a good tool. I'd like to see a simple app that lets me list the websites I hate but can't live without (perhaps the app could be called "Nemesis"?), and then forces my screen into greyscale whenever I visit them. Bonus points if it can turn my screen into an evil-looking blood-red monochrome for the worst offenders...
+The problem with this idea is that it's awkward without a good tool. I'd like to see a simple app that lets me list the websites I hate but can't live without (perhaps the app could be called "Nemesis"?), and then forces my screen into grayscale whenever I visit them. Bonus points if it can turn my screen into an evil-looking blood-red monochrome for the worst offenders...
