@@ -198,5 +198,11 @@ h1.matt {
 #disqus_thread {
   margin-right: 90px; }
 
+strong {
+  font-weight: bold; }
+
+em, i {
+  font-style: italic; }
+
 .off {
   color: black; }

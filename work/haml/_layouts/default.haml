@@ -19,11 +19,11 @@
       {% include nav.html %}
       %h1.matt Matt Huebert
       {{ content }}
-      {% if disqus_hide == null %}
+      {% if page.disqus_hide == null %}
       {% include disqus.html %}
       {% endif %}
       .bottom
-        {% if disqus_hide != null %}
+        {% if page.disqus_hide != null %}
         {% include facebook.html %}
         {% endif %}
         {% include nav.html %}
