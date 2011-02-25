@@ -20,6 +20,9 @@
     <div class='container'>
       {% include nav.html %}
       <h1 class='matt'>Matt Huebert</h1>
+      {% if page.hide_title == null %}
+      <div class='post-title'>{{ page.title }}</div>
+      {% endif %}
       {{ content }}
       {% if page.disqus_hide == null %}
       {% include disqus.html %}

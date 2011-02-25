@@ -4,7 +4,7 @@
  <title>Matthew Huebert</title>
  <link href="http://matt.is/atom.xml" rel="self"/>
  <link href="http://matt.is/"/>
- <updated>2011-02-25T00:56:03-08:00</updated>
+ <updated>2011-02-25T01:05:51-08:00</updated>
  <id>http://matt.is/</id>
  <author>
    <name>Matthew Huebert</name>
@@ -31,8 +31,7 @@
    <link href="http://matt.is/explaining/about-this-site"/>
    <updated>2011-02-16T00:00:00-08:00</updated>
    <id>http://matt.is/explaining/about-this-site</id>
-   <content type="html">&lt;div class='post-title'&gt;About This Site&lt;/div&gt;
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I built this site with
   &lt;a href='https://github.com/mojombo/jekyll'&gt;Jekyll,&lt;/a&gt;
   and it’s hosted on
