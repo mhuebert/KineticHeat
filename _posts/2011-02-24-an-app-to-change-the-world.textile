@@ -1,5 +1,5 @@
 ---
-title: An App to Change the World
+title: An App to Change the World (and pry yourself off facebook)
 layout: default
 category: proposing
 ---
