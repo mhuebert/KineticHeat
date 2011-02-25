@@ -93,8 +93,7 @@ h1.matt {
       color: #aaaaaa; }
     .nav a.active:hover {
       color: black;
-      text-decoration: none;
-      cursor: default; }
+      text-decoration: none; }
 
 .view-controller {
   padding: 19px 10px 0;
