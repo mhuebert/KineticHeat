@@ -75,16 +75,23 @@ p, .posts
     text-decoration: underline
     color: #8F050D
 .posts
-  line-height: 150%
+  line-height: 125%
   margin-bottom: 30px
+  li
+    position: relative
+    margin-bottom: 10px
   .date
     display: inline-block
-    width: 108px
+    width: 95px
     text-align: right
-    margin-right: 10px
+    // margin-right: 10px
     color: #bbb
+    position: absolute
+    top: 0
+    left: -5px
   a
-    display: inline
+    display: block
+    padding-left: 106px
 .post-title
   font-weight: bold
   margin-bottom: 20px
@@ -267,5 +274,10 @@ strong
   font-weight: bold
 em, i
   font-style: italic
+.recent-posts
+  float: left
+  width: 400px
+.recent-tweets
+  float: left
 .off
   color: black

@@ -10,16 +10,22 @@ p a, .posts a {
   color: #8f050d; }
 
 .posts {
-  line-height: 150%;
+  line-height: 125%;
   margin-bottom: 30px; }
+  .posts li {
+    position: relative;
+    margin-bottom: 10px; }
   .posts .date {
     display: inline-block;
-    width: 108px;
+    width: 95px;
     text-align: right;
-    margin-right: 10px;
-    color: #bbbbbb; }
+    color: #bbbbbb;
+    position: absolute;
+    top: 0;
+    left: -5px; }
   .posts a {
-    display: inline; }
+    display: block;
+    padding-left: 106px; }
 
 .post-title {
   font-weight: bold;
@@ -214,6 +220,13 @@ strong {
 
 em, i {
   font-style: italic; }
+
+.recent-posts {
+  float: left;
+  width: 400px; }
+
+.recent-tweets {
+  float: left; }
 
 .off {
   color: black; }
