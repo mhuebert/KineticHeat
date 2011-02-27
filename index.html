@@ -1,24 +1,33 @@
 ---
-title: CV
+title: Blog
 layout: default
 disqus_hide: true
+hide_title: true
 ---
-<div class='view-controller first' id='filter'>
-  <div class='heading'>View</div>
-  <a class='first' href='#*'>All</a>
-  <a href='#.education'>Education</a>
-  <a class='active' href='#.entrepreneurial'>Entrepreneurial</a>
-  <a href='#.non-profit'>Non-Profit</a>
-  <a href='#.awards'>Awards</a>
+<div class='recent-posts'>
+  <ul class='posts'>
+    {% for post in site.posts limit:10 %}
+    <li>
+      <div class='date'>{{ post.date | date_to_string }}</div>
+      <a href='{{ post.url }}'>{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <ul class='posts'>
+    <li>
+      <div class='date'>Twitter:</div>
+      <a href='http://twitter.com/mhuebert'>@mhuebert</a>
+    </li>
+    <li>
+      <div class='date'>Facebook:</div>
+      <a href='http://facebook.com/matt.huebert'>facebook.com/matt.huebert</a>
+    </li>
+    <li>
+      <div class='date'>LinkedIn:</div>
+      <a href='http://ca.linkedin.com/in/matthewhuebert'>ca.linkedin.com/in/matthewhuebert</a>
+    </li>
+  </ul>
 </div>
-<div class='view-controller' id='sort'>
-  <div class='heading'>Sort</div>
-  <a class='first' href='#date'>Most Recent</a>
-  <a href='#length'>Time Invested</a>
-  <a class='active' href='#passion'>Passion</a>
+<div class='recent-tweets'>
+  {% include twitter_list.html %}
 </div>
-<ul class='elements' id='cv'>
-  {% for element in site.elements limit:20 %}
-  {% include element_partial.html %}
-  {% endfor %}
-</ul>

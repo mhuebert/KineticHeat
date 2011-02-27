@@ -1,22 +1,30 @@
 \---
-title: CV
+title: Blog
 layout: default
 disqus_hide: true
+hide_title: true
 \---
-#filter.view-controller.first
-  .heading View
-  %a.first{:href=>"#*"} All
-  %a{:href=>"#.education"} Education
-  %a.active{:href=>"#.entrepreneurial"} Entrepreneurial
-  %a{:href=>"#.non-profit"} Non-Profit
-  %a{:href=>"#.awards"} Awards
-#sort.view-controller
-  .heading Sort
-  %a.first{:href=>"#date"} Most Recent
-  %a{:href=>"#length"} Time Invested
-  %a.active{:href=>"#passion"} Passion
+.recent-posts
+  %ul.posts
+    {% for post in site.posts limit:10 %}
+    %li
+      .date {{ post.date | date_to_string }}
+      %a{:href=>"{{ post.url }}"} {{ post.title }}
+    {% endfor %}
+  %ul.posts
+    %li
+      .date Twitter:
+      %a{:href=>"http://twitter.com/mhuebert"} @mhuebert
 
-%ul#cv.elements
-  {% for element in site.elements limit:20 %}
-  {% include element_partial.html %}
-  {% endfor %}
+    %li  
+      .date Facebook:
+      %a{:href=>"http://facebook.com/matt.huebert"} facebook.com/matt.huebert
+
+    %li  
+      .date LinkedIn:
+      %a{:href=>"http://ca.linkedin.com/in/matthewhuebert"} ca.linkedin.com/in/matthewhuebert
+
+
+.recent-tweets
+  {% include twitter_list.html %}
+

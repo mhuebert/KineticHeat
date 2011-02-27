@@ -46,7 +46,7 @@ $ ->
     
   $(".nav a.active").removeClass("active")
   if window.location.pathname == "/"
-    $(".nav a.cv").addClass("active")
+    $(".nav a.blog").addClass("active")
   else if (link = $(".nav a[href*="+window.location.pathname+"]")).length > 0
     link.addClass("active")
   else
