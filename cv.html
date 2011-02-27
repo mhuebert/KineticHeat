@@ -1,0 +1,24 @@
+---
+title: CV
+layout: default
+disqus_hide: true
+---
+<div class='view-controller first' id='filter'>
+  <div class='heading'>View</div>
+  <a class='first' href='#*'>All</a>
+  <a href='#.education'>Education</a>
+  <a class='active' href='#.entrepreneurial'>Entrepreneurial</a>
+  <a href='#.non-profit'>Non-Profit</a>
+  <a href='#.awards'>Awards</a>
+</div>
+<div class='view-controller' id='sort'>
+  <div class='heading'>Sort</div>
+  <a class='first' href='#date'>Most Recent</a>
+  <a href='#length'>Time Invested</a>
+  <a class='active' href='#passion'>Passion</a>
+</div>
+<ul class='elements' id='cv'>
+  {% for element in site.elements limit:20 %}
+  {% include element_partial.html %}
+  {% endfor %}
+</ul>
