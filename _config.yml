@@ -2,9 +2,9 @@ permalink: /:categories/:title
 exclude: /work
 elements:
   - categories: [ cv, entrepreneurial ]
-    name: "Startup #3"
-    title: Founder
-    detail: "My next company—more info to follow..."
+    name: "Overlap.me"
+    title: Founder/CEO
+    detail: "Sign up for the beta <a href='http://alpha.overlap.me'>here.</a>"
     length: 5
     years: 2010-2011
     date: 2010-09
@@ -98,7 +98,7 @@ elements:
     passion: 5
   - categories: [ cv, entrepreneurial ]
     name: Ethical Style 
-    title: Founder
+    title: Founder/CEO
     locations: Guatemala, South East Asia, Canada
     detail: For-profit venture supporting artesans in developing economies
     length: 12
