@@ -14,7 +14,8 @@ p a, .posts a {
   margin-bottom: 30px; }
   .posts li {
     position: relative;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin-left: 0; }
   .posts .date {
     display: inline-block;
     width: 95px;
