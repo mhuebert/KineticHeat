@@ -1,5 +1,5 @@
 ---
-title: An App to Change the World
+title: An App to Change the World (and pry yourself off Facebook)
 layout: default
 category: proposing
 meta: So I’m sitting at Startup Drinks in Vancouver last night when Delano Mandelbaum, the singular human force behind website monitoring tool BlameStella, lends me a productivity tip which I think might just change the world, if only it can be paired with a great user interface...
