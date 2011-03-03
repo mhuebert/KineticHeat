@@ -5,12 +5,36 @@ disqus_hide: true
 hide_title: true
 \---
 .recent-posts
+
+  %p{:style=>"margin-right:10px"}
+    Hey there, I'm Matt&mdash;thanks for the visit.
+  %p{:style=>"margin-right:10px"}
+    Below are a few posts from my
+    %a.strong.black{:href=>"/blog.html"} blog.
+    You can also see
+    %a.strong.black{:href=>"/photography.html"} photography
+    from Canada and Guatemala, my
+    %a.strong.black{:href=>"/cv.html"} CV
+    (which is a bit of a design experiment),
+    and
+    %a.strong.black{:href=>"/bio.html"} bio.
+        
+  %p{:style=>"margin-right:10px"}
+    %strong.black PS:
+    Don't forget to 
+    %a{:href => "http://overlap.me"} sign up
+    for Overlap.me&mdash; I think you'll like it :).
+  
   %ul.posts
     {% for post in site.posts limit:10 %}
     %li
       .date {{ post.date | date_to_string }}
       %a{:href=>"{{ post.url }}"} {{ post.title }}
     {% endfor %}
+
+
+  %p
+    Find me on the web:
   %ul.posts
     %li
       .date Twitter:

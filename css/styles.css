@@ -9,6 +9,15 @@ p a, .posts a {
   text-decoration: underline;
   color: #8f050d; }
 
+.black {
+  color: black; }
+
+.greytext {
+  color: #bbbbbb; }
+
+.strong {
+  font-weight: bold; }
+
 .posts {
   line-height: 125%;
   margin-bottom: 30px; }
