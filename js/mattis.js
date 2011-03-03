@@ -48,7 +48,7 @@
     });
     $(".nav a.active").removeClass("active");
     if (window.location.pathname === "/") {
-      return $(".nav a.blog").addClass("active");
+      return $(".nav a.home").addClass("active");
     } else if ((link = $(".nav a[href*=" + window.location.pathname + "]")).length > 0) {
       return link.addClass("active");
     } else {
