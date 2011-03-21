@@ -238,5 +238,21 @@ em, i {
 .recent-tweets {
   float: left; }
 
+.linkroll {
+  clear: both;
+  font-size: 80%; }
+  .linkroll a.pin-tag {
+    font-size: 85%;
+    color: #888888;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #dddddd;
+    padding: 0 4px;
+    text-decoration: none;
+    display: inline-block; }
+    .linkroll a.pin-tag:hover {
+      text-decoration: underline; }
+
 .off {
   color: black; }

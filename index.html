@@ -19,11 +19,10 @@ hide_title: true
     and
     <a class='strong black' href='/bio.html'>bio.</a>
   </p>
-  <p style='margin-right:10px'>
-    <strong class='black'>And</strong>
-    don't forget to
-    <a href='http://overlap.me'>sign up</a>
-    for Overlap.me&mdash; you might like it :).
+  <p>
+    Don't forget to
+    <a class='strong black' href='/bio.html'>sign up</a>
+    for Overlap.me.
   </p>
   <ul class='posts'>
     {% for post in site.posts limit:10 %}
@@ -33,7 +32,7 @@ hide_title: true
     </li>
     {% endfor %}
   </ul>
-  <p>
+  <p class='strong black'>
     Find me on the web:
   </p>
   <ul class='posts'>
@@ -50,7 +49,13 @@ hide_title: true
       <a href='http://ca.linkedin.com/in/matthewhuebert'>ca.linkedin.com/in/matthewhuebert</a>
     </li>
   </ul>
+  <p class='strong black'>
+    Interesting links:
+  </p>
 </div>
 <div class='recent-tweets'>
   {% include twitter_list.html %}
+</div>
+<div class='linkroll' style='font-size: 80%;'>
+  <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=mhuebert&count=100"></script>
 </div>

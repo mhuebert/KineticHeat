@@ -18,12 +18,11 @@ hide_title: true
     (which is a bit of a design experiment),
     and
     %a.strong.black{:href=>"/bio.html"} bio.
-        
-  %p{:style=>"margin-right:10px"}
-    %strong.black And
-    don't forget to 
-    %a{:href => "http://overlap.me"} sign up
-    for Overlap.me&mdash; you might like it :).
+    
+  %p
+    Don't forget to
+    %a.strong.black{:href=>"/bio.html"} sign up
+    for Overlap.me.
   
   %ul.posts
     {% for post in site.posts limit:10 %}
@@ -33,7 +32,7 @@ hide_title: true
     {% endfor %}
 
 
-  %p
+  %p.strong.black
     Find me on the web:
   %ul.posts
     %li
@@ -48,7 +47,13 @@ hide_title: true
       .date LinkedIn:
       %a{:href=>"http://ca.linkedin.com/in/matthewhuebert"} ca.linkedin.com/in/matthewhuebert
 
+  %p.strong.black
+    Interesting links:
 
 .recent-tweets
   {% include twitter_list.html %}
 
+
+
+.linkroll{:style=>"font-size: 80%;"}
+  <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=mhuebert&count=100"></script>

@@ -1,0 +1,33 @@
+---
+title: Sloughs of Stupidity
+layout: default
+category: thinking-about
+---
+
+Paul Graham coined the term "Trough of Sorrow" to describe what startups experience post-launch, pre-traction. Your Techcrunch buzz has worn off, a small trickle of traffic remains, and your face darkens in the shadow of a mountain of company-building that stands between you and any hope of justifying the irrational sacrifices you've made for what now appears to be a silly, superfluous web trinket that serves little purpose to anybody anywhere and threatens to stink up your resume with failure of a magnitude your imagination never prepared you for. You walk down the sidewalk and notice that few people give a shit who you are, your skin doesn't sparkle, your brain hasn't increased in size, the air has run out of electric energy and you've nobody to blame for this predicament but your own self. If you have a founder, you pretend to be in good spirits for their sake (and this mutual effusion of energy keeps you both going). If you're alone, you either give up or your blood thickens.
+
+But the trough of sorrow isn't what's on my mind. What's on my mind is something that probably happened earlier, will happen again, basicallly
+
+ that (hopefully) happened earlier. It's something I'm trying to train myself to go through more often. 
+
+Just like talking about the Trough of Sorrow helps prepare founders for a difficult road ahead, talking about the Trough of Stupidity should encourage you to actually dip your feet into the mud a little more often. Knowing that you won't get stuck there forever is key to endurance. Realizing the pain is temporary is key to convincing your mind to dive into it, and if you're really schooled, thrive. (the entrepreneurial equivalent of buddhist enlightenment?)
+
+You have to be willing to act on your ideas enough to sound, and look, foolish. But do you *really* want to look foolish? No, you don't. But you should let yourself anyway. It's refreshing for the world.
+
+Secrecy is the key to fruitful stupidity.
+
+ When you create an atmosphere of candor, people relax enough to reveal their true thoughts which, unvarnished, appear stupid. But stupid-looking ideas are the raw material of brilliant ideas. Stupid is to ideas as manure is to great-tasting carrots. Let's not mince words, stupidity belongs in the hands of your customers as much as manure belongs in a lunchbox--they both smell awful. But both are prerequisites to greatness.
+
+Steve Jobs solves the problem by surrounding himself with smart, perceptive people who can catch each other's mistakes before they're public. Secrecy is the key to fruitful stupidity.
+
+The middle ground holds that since stupidity (or half-baked ideas) is a "good thing" it's somehow noble to heap it upon unsuspecting users, hoping they'll help sort out your mess. Smart farmers keep manure in the farmyard and wash their carrots before taking them to market.
+
+If your company is big enough or your brain is perceptive enough, you can get away with thrashing on your own.
+
+There is a middle-ground of people who believe that secrecy is Evil and transparency is Good. Don't put manure in my lunchbox unless I specifically ask you to.
+
+The middle ground, where you pretend that secrecy doesn't matter and you try to be as transparent as possible all the time (but really this tightens up the muscles around your head and neck and you become ever-so-slightly knotted)
+
+It's a transaction cost for marketing companies if they feel that everything they show to clients must be polished. Good clients understand and expect iteration, which implies seeing unfinished work. Bad clients get upset and see unfinished work as a blemish on the reputation of the service provider.
+
+Actually the trough of stupidity isn't as big a deal as the trough of sorrow, and it's simply a re-hash of what thousands of people have said in the past. But I like the term.
