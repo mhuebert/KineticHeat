@@ -2,7 +2,7 @@
 title: Trying to Matter
 layout: default
 category:
-meta: The Nyankunde attack, a microscopic blip in a complicated, massive war (5.4 million+ killed). Matthew Huebert, one seven-billionth of humanity. A tenuous thread that connects the two. I stare at myself in the mirror, and don’t know what to say.
+meta: The Nyankunde attack, a microscopic blip in a complicated, massive war (5.4 million+ killed). Me, one seven-billionth of humanity. The tenuous thread that connects us. I stare at myself in the mirror, and don’t know what to say.
 ---
 
 
