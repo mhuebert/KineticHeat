@@ -6,9 +6,9 @@ hide_title: true
 \---
 .recent-posts
 
-  %p{:style=>"margin-right:10px"}
+  %p{:style=>"margin-right:10px;width:350px;"}
     Hey there, I'm Matt&mdash;thanks for the visit.
-  %p{:style=>"margin-right:10px"}
+  %p{:style=>"margin-right:10px;width:350px;"}
     Below are a few posts from my
     %a.strong.black{:href=>"/blog.html"} blog.
     You can also see
@@ -19,12 +19,12 @@ hide_title: true
     and
     %a.strong.black{:href=>"/bio.html"} bio.
     
-  %p
+  %p{:style=>"margin-right:10px;width:350px;"}
     Don't forget to
     %a.strong.black{:href=>"/bio.html"} sign up
     for Overlap.me.
   
-  %ul.posts
+  %ul.posts{:style=>"margin-right:10px;width:350px;"}
     {% for post in site.posts limit:10 %}
     %li
       .date {{ post.date | date_to_string }}
@@ -55,5 +55,5 @@ hide_title: true
 
 
 
-.linkroll{:style=>"font-size: 80%;"}
+.linkroll
   <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=mhuebert&count=100"></script>

@@ -1,9 +1,17 @@
 p {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   line-height: 150%;
-  margin-right: 90px; }
+  margin-right: 90px;
+  width: 450px; }
   p.last {
     margin-bottom: 0; }
+  p.caption {
+    font-style: italic;
+    font-size: 80%;
+    color: #555555; }
+
+blockquote {
+  margin-left: 20px; }
 
 p a, .posts a {
   text-decoration: underline;
@@ -39,13 +47,15 @@ p a, .posts a {
 
 .post-title {
   font-weight: bold;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-size: 120%; }
 
 body {
   padding: 0 0 25px 0;
   background-color: black;
   color: black;
-  font-family: "helvetica neue", Arial, sans-serif; }
+  font-family: "helvetica neue", Arial, sans-serif;
+  font-size: 80%; }
 
 .bg {
   position: absolute;
@@ -78,7 +88,7 @@ a {
     text-decoration: underline; }
 
 h1.matt {
-  font-size: 400%;
+  font-size: 500%;
   font-weight: bold;
   display: block;
   margin: 0 0 23px -1px;
@@ -102,7 +112,7 @@ h1.matt {
   padding: 5px; }
   .nav a {
     color: #cccccc;
-    font-size: 90%;
+    font-size: 110%;
     display: inline-block;
     margin: 0 3px;
     font-weight: bold; }
@@ -118,7 +128,7 @@ h1.matt {
   float: right;
   padding: 9px;
   color: #bbbbbb;
-  font-size: 80%; }
+  font-size: 100%; }
   .nav-right a {
     color: #555555;
     font-weight: bold; }
@@ -130,13 +140,13 @@ h1.matt {
   position: relative;
   border-left: 1px solid #cccccc;
   margin: 0 0 28px;
-  font-size: 90%; }
+  font-size: 110%; }
   .view-controller.first {
     border-left: none;
     margin-left: -8px; }
   .view-controller .heading {
     position: absolute;
-    font-size: 90%;
+    font-size: 110%;
     text-transform: uppercase;
     top: 0;
     left: 10px;
@@ -171,7 +181,7 @@ h1.matt {
 .detail {
   display: inline-block;
   vertical-align: top;
-  font-size: 90%;
+  font-size: 110%;
   color: #555555;
   margin: 3px 0 0 0; }
   .detail a {
@@ -184,7 +194,7 @@ h1.matt {
   border-color: #eaeaea #dedede #dedede #eaeaea;
   color: #5669b2;
   text-decoration: none;
-  font-size: 90%;
+  font-size: 110%;
   font-weight: bold;
   display: inline-block;
   position: relative;
@@ -239,8 +249,7 @@ em, i {
   float: left; }
 
 .linkroll {
-  clear: both;
-  font-size: 80%; }
+  clear: both; }
   .linkroll a.pin-tag {
     font-size: 85%;
     color: #888888;

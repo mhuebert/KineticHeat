@@ -23,7 +23,9 @@
       {% if page.hide_title == null %}
       <div class='post-title'>{{ page.title }}</div>
       {% endif %}
-      {{ content }}
+      <div class='content'>
+        {{ content }}
+      </div>
       {% if page.disqus_hide == null %}
       <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="mhuebert">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
       {% include disqus.html %}

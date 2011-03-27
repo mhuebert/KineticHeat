@@ -51,11 +51,12 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
       <h1 class='matt'>Matt Huebert</h1>
       
-      <div class='recent-posts'>
-  <p style='margin-right:10px'>
+      <div class='content'>
+        <div class='recent-posts'>
+  <p style='margin-right:10px;width:350px;'>
     Hey there, I'm Matt&mdash;thanks for the visit.
   </p>
-  <p style='margin-right:10px'>
+  <p style='margin-right:10px;width:350px;'>
     Below are a few posts from my
     <a class='strong black' href='/blog.html'>blog.</a>
     You can also see
@@ -66,12 +67,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
     and
     <a class='strong black' href='/bio.html'>bio.</a>
   </p>
-  <p>
+  <p style='margin-right:10px;width:350px;'>
     Don't forget to
     <a class='strong black' href='/bio.html'>sign up</a>
     for Overlap.me.
   </p>
-  <ul class='posts'>
+  <ul class='posts' style='margin-right:10px;width:350px;'>
+    
+    <li>
+      <div class='date'>27 Mar 2011</div>
+      <a href='/trying-to-matter'>Trying to Matter</a>
+    </li>
     
     <li>
       <div class='date'>24 Feb 2011</div>
@@ -143,10 +149,11 @@ new TWTR.Widget({
 }).render().setUser('mhuebert').start();
 </script>
 </div>
-<div class='linkroll' style='font-size: 80%;'>
+<div class='linkroll'>
   <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=mhuebert&count=100"></script>
 </div>
 
+      </div>
       
       <div class='bottom'>
         
