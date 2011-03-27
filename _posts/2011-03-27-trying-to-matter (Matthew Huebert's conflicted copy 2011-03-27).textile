@@ -1,0 +1,56 @@
+---
+title: Trying to Matter
+layout: default
+category:
+meta: The Nyankunde attack, a microscopic blip in a complicated, massive war (5.4 million+ killed). Matthew Huebert, one seven-billionth of humanity. A tenuous thread that connects the two. I stare at myself in the mirror, and don’t know what to say.
+---
+
+
+
+This is where I learned to swim:
+
+!/post-images/nyankunde-pool.jpg(Pool in Nyankunde)!
+
+p(caption){text-align:right;width:445px;margin-top:-10px;}. Photo: Aaron Wolcott
+
+The pool is filled with algae because it was abandoned; it was abandoned because of war.
+
+I was four when my family moved to Nyankunde, Zaire (now DR Congo) so that my dad could teach there. We stayed for ten months. I was 19 when I received the email and read the reports: _{color:#666;}"Wearing crowns of leaves and screaming war cries, 6,000 tribal fighters overran a mission hospital in Nyankunde, killing patients as they lay in their beds."_ After Africa, I had spent the rest of my childhood in a small, quiet town in rural Saskatchewan.
+
+It feels strange to be connected to such unspeakable horrors. _{color:#666;}"During the massacre, militiamen would open up the belly of their victims and eat something directly from within the body."_ It's not something one forgets.
+
+I remember climbing up the big hill that overlooks Nyankunde, watching for snakes in the tall elephant grass. On the way down, I tripped and fell right into a cowpie, green and wet. _{color:#666;}"Their houses were emptied of belongings which were carried on the heads of Ngiti militiamen, across the hills to their distant villages... the line of people carrying away their belongings was like 'a stream of ants going across the valley and over the hill.'"_
+
+Our cat was named Rascal Snoopy Jack Huebert. My brother and sister and I each got to pick a name; I chose Jack. When he was scared, he'd race into the fireplace and up to a hidden ledge inside the chimney. Sometimes we chased him there on purpose. He could stay up there for hours._{color:#666;}"Kakani closed windows and barricaded the intensive-care ward. Patients who could move were hidden under beds and in rafters... Hospital staff laid many on the floor to keep them safely away from stray bullets that peppered walls and windows."_
+
+I remember my first baseball game. I hit the ball and then didn't know what to do. People were shouting directions to me but I couldn't understand and then suddenly I was out, they'd thrown the ball to first base. I had to walk off the field. I was crying. _{color:#666;}"Through an open window, he saw dozens of women and children running toward the Congo mission compound from fields where they had been working since daybreak. Behind them were about 7,000 soldiers."_
+
+Our night watchman once killed a poisonous snake right by our house in the middle of the night. He pounded it into the ground with a big stick. I was asleep. Everybody else woke up and got to see it. I was disappointed I'd missed something so exciting. _{color:#666;}"The Ngiti moved house to house, where many hospital staff had fled, slitting throats of victims and throwing their bodies outside. They looted homes and then burned them to the ground."_
+
+Each morning a man rode by selling warm goat's milk from a metal pot attached to his bicycle. Our family ate porridge for breakfast, with powdered milk. I didn’t like milk anymore after living in Africa. _{color:#666;}"At night soldiers would enter and mock the crowd who were pleading for water. They were given empty cups to drink their own urine."_
+
+My best friend was Rachael. My mom taught us kindergarten together. One day my brother teased me about her. I got mad. I thought he was the one who invented the idea of making fun of boys for being friends with girls. Before that we didn't care. We played together all the time. We pretended that broomsticks were horses and galloped across the yard with them between our legs. _{color:#666;}"Survivors said the attackers were from the Ngiti and Lendu tribes, along with other allies. They killed people from the Bira, Hema and 16 other tribes living in Nyankunde."_
+
+A local man would cut the grass on our yard by hand, swinging a machete. The grass made you itchy if you rolled in it. I really wanted my own machete. _{color:#666;}"The attackers used rifles, machetes, knives, spears and arrows, said Kakani, head nurse in the intensive care ward."_
+
+I remember stepping on snails to hear the crushing sound of the shell and the squishing of the insides. I remember when I tried to climb a tree and a branch snapped, and white milky fluid oozed out, and I felt bad. I remember one time, I found a penny on the dirt road in front of our house. _{color:#666;}"Among the dead was the mother of little Baraka Safari. She was killed two days after giving birth to the boy, who was found crying beside his mother's body, survivors said. He was given a Kiswahili name that means ‘fortunate journey’ by those who carried him the 93 miles to Oicha."_
+
+On our way back to Canada, we visited Europe for three weeks. I remember sleeping in a chalet in the Swiss Alps and hearing cowbells and watching a hang-glider in the sky. There were yellow flowers in the meadow. The ceiling in the chalet was slanted. I had a featherbed blanket, it felt like four feet thick. It was cozy. _{color:#666;}"More than 700 people who took to the jungle after a massacre at their medical compound in the northeast corner of the Democratic Republic of Congo have reached safety... [they] made a dramatic trek of about 170 kilometers through savannah and dense forest to reach the town of Oicha, losing no member of the group on the journey."_
+
+p{text-align:center}. ###
+
+Twenty-three years since I lived in Africa, nine since the massacre. It hasn’t been obvious what to learn from it all. 
+
+The Nyankunde attack: a microscopic blip in a complicated, massive war (5.4+ million killed). Matthew Huebert: one seven-billionth of humanity. A tenuous thread connects us. I stare at myself in the mirror, and don’t know what to say. It’s disorienting to think about, and I usually don’t. 
+
+But I’m left with a persistent inner tug, to try and do something that matters. 
+
+Even though I’m not exactly sure what mattering looks like, it’s a hard feeling to ignore. When I’m reading the news, or fixing a software bug, or designing a logo, or writing an email, the question returns... does this matter? _Could_ it matter? What _would_ matter? 
+
+I rarely have answers. I try to make sense of my actions, to visualize their consequence in the world, but paths of cause and effect are complex, my vision is limited, and no matter how much you learn, much of the world is inherently unpredictable.
+
+So the most I can ever really say I’m doing, is trying. 
+
+To matter.
+
+I hope that’s enough.
