@@ -15,7 +15,7 @@ p(caption){text-align:right;width:445px;margin-top:-10px;}. Photo: Aaron Wolcott
 
 The pool is filled with algae because it was abandoned; it was abandoned because of war.
 
-I was four when my family moved to Nyankunde, Zaire (now DR Congo) so that my dad could teach there. We stayed for ten months. I was 19 when I got the first email: _{color:#666;}"Wearing crowns of leaves and screaming war cries, tribal fighters overran a mission hospital in Nyankunde, killing patients as they lay in their beds."_ I had spent the rest of my childhood in a small, quiet town in rural Saskatchewan. 
+I was four when my family moved to Nyankunde, Zaire (now DR Congo) so that my dad could teach there. We stayed for ten months. I was 19 when I got the first email: _{color:#666;}"Wearing crowns of leaves and screaming war cries... tribal fighters overran a mission hospital in Nyankunde, killing patients as they lay in their beds."_ I had spent the rest of my childhood in a small, quiet town in rural Saskatchewan. 
 
 It feels strange to be connected to such unspeakable horrors. _{color:#666;}"During the massacre, militiamen would open up the belly of their victims and eat something directly from within the body."_ It’s not something one forgets. Nyankunde is 50km from the United Nations base in Bunia, which hits the news every so often.
 
@@ -42,7 +42,7 @@ I remember climbing up the big hill that overlooks Nyankunde, watching for snake
 
 I remember stepping on snails to hear the crushing sound of the shell and the squishing of the insides. I remember when I tried to climb a tree and a branch snapped, and white milky stuff oozed out, and I felt bad. I remember one time, I found a penny on a dirt road. _{color:#666;}"Among the dead was the mother of little Baraka Safari. She was killed two days after giving birth to the boy, who was found crying beside his mother's body, survivors said. He was given a Kiswahili name that means ‘fortunate journey’ by those who carried him the 93 miles to Oicha."_
 
-After Nyankunde we visited Europe for three weeks on our way back to Canada. I remember sleeping in a chalet in the Swiss Alps and hearing cowbells and watching a hang-glider in the sky. There were yellow flowers in the meadow. The ceiling in the chalet was slanted. I had a featherbed blanket, I thought it was four feet thick. It was cozy. _{color:#666;}"Hospital workers and patients fled into the jungle, eventually making their way through a rainforest to a sister hospital in Oicha over 100 miles away. They lived off rainwater and sugarcane during a trek that took nearly two weeks."_
+After Nyankunde we visited Europe for three weeks on our way back to Canada. I remember sleeping in a chalet in the Swiss Alps and hearing cowbells and watching a hang-glider in the sky. There were yellow flowers in the meadow. The ceiling in the chalet was slanted. I had a featherbed blanket, I thought it felt like four feet thick. It was cozy. _{color:#666;}"Hospital workers and patients fled into the jungle, eventually making their way through a rainforest to a sister hospital in Oicha over 100 miles away. They lived off rainwater and sugarcane during a trek that took nearly two weeks."_
 
 p{text-align:center}. ###
 
@@ -61,3 +61,10 @@ So the most I can ever really say I’m doing, is trying.
 To matter.
 
 I hope that’s enough.
+
+<hr style="background-color:#ccc;border:none;margin:30px 30px 10px 0"/>
+
+p{font-size:11px;font-style:italic;margin-bottom:20px;}. Sources:
+"On the road to genocide":http://www.worldmag.com/articles/6505
+"Massacre at Nyankunde":http://www.bereanpublishers.com/Persecution_of_Christians/massacre_at_nyankunde.htm
+"Jungle Trek Leads Missionaries To Safety After Congo Massacre":http://jmm.aaa.net.au/articles/475.htm?wpmp_switcher=mobile
