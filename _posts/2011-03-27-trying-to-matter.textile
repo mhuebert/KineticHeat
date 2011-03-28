@@ -2,7 +2,7 @@
 title: Trying to Matter
 layout: default
 category:
-meta: The Nyankunde attack, a microscopic blip in a complicated, massive war (5.4 million+ killed). Me, one seven-billionth of humanity. The tenuous thread that connects us. I stare at myself in the mirror, and don’t know what to say.
+meta: Memories of pre-war Congo from my childhood, and the story of violence which occurred long after I was gone.
 ---
 
 
@@ -15,7 +15,7 @@ p(caption){text-align:right;width:445px;margin-top:-10px;}. Photo: Aaron Wolcott
 
 The pool is filled with algae because it was abandoned; it was abandoned because of war.
 
-I was four when my family moved to Nyankunde, Zaire (now DR Congo). My parents had a teaching assignment there and we stayed for ten months. I was 19 when I got the first email: _{color:#666;}"Wearing crowns of leaves and screaming war cries... tribal fighters overran a mission hospital in Nyankunde, killing patients as they lay in their beds."_ I had spent the rest of my childhood in a small, quiet town in rural Saskatchewan. 
+I was four when my family moved to Nyankunde, Zaire (now DR Congo). My parents had a teaching assignment there and we stayed for ten months. I was nineteen when I got the first email: _{color:#666;}"Wearing crowns of leaves and screaming war cries... tribal fighters overran a mission hospital in Nyankunde, killing patients as they lay in their beds."_ I had spent the rest of my childhood in a small, quiet town in rural Saskatchewan. 
 
 It feels strange to be connected to such unspeakable horrors. _{color:#666;}"During the massacre, militiamen would open up the belly of their victims and eat something directly from within the body."_ It’s not something one forgets. Nyankunde is 50km from the United Nations base in Bunia, which hits the news every so often.
 
