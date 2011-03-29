@@ -26,6 +26,16 @@
       <div class='content'>
         {{ content }}
       </div>
+      <div class='bottom-nav'>
+        {% if page.previous %}
+        <a class='prev' href='{{ page.previous.url }}' title='{{ page.previous.title }}'>&larr; Previous</a>
+        {% endif %}
+        <!-- %a{:href=>"/blog.html"} Index -->
+        {% if page.next %}
+        <a class='next' href='{{ page.next.url }}' title='{{ page.next.title }}'>Next &rarr;</a>
+        {% endif %}
+      </div>
+      <div class='clear'></div>
       {% if page.disqus_hide == null %}
       <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="mhuebert">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
       {% include disqus.html %}

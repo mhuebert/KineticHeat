@@ -23,6 +23,15 @@
       {% endif %}
       .content
         {{ content }}
+      .bottom-nav
+        {% if page.previous %}
+        %a.prev{:href=>"{{ page.previous.url }}", :title => "{{ page.previous.title }}"} &larr; Previous
+        {% endif %}
+        / %a{:href=>"/blog.html"} Index
+        {% if page.next %}
+        %a.next{:href=>"{{ page.next.url }}", :title => "{{ page.next.title }}"} Next &rarr;
+        {% endif %}
+      .clear
       {% if page.disqus_hide == null %}
       <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="mhuebert">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
       {% include disqus.html %}
