@@ -6,7 +6,7 @@ hide_title: true
 \---
 .recent-posts
 
-  %p{:style=>"margin-right:10px;width:350px;"}
+  %p{:style=>"margin-right:10px;width:410px;"}
     Hey there, I'm Matt&mdash;thanks for the visit.
   %p{:style=>"margin-right:10px;width:350px;"}
     Below are a few posts from my
@@ -19,17 +19,21 @@ hide_title: true
     and
     %a.strong.black{:href=>"/bio.html"} bio.
     
-  %p{:style=>"margin-right:10px;width:350px;"}
-    Don't forget to
-    %a.strong.black{:href=>"http://www.overlap.me"} sign up
-    for Overlap.me.
+  / %p{:style=>"margin-right:10px;width:350px;"}
+  /   Don't forget to
+  /   %a.strong.black{:href=>"http://www.overlap.me"} sign up
+  /   for Overlap.me.
+
+  %p.strong.black
+    Latest posts:
   
-  %ul.posts{:style=>"margin-right:10px;width:350px;"}
+  %ul.posts{:style=>"margin-right:10px;width:410px;"}
     {% for post in site.posts limit:10 %}
     {% if post.hide_from_nav == null %}
     %li
       .date {{ post.date | date_to_string }}
       %a{:href=>"{{ post.url }}"} {{ post.title }}
+      / %span.post-meta {{ post.meta }}
     {% endif %}
     {% endfor %}
 

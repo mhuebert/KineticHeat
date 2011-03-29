@@ -35,15 +35,19 @@ p a, .posts a {
     margin-left: 0; }
   .posts .date {
     display: inline-block;
-    width: 95px;
+    width: 78px;
     text-align: right;
-    color: #bbbbbb;
+    color: #777777;
     position: absolute;
     top: 0;
     left: -5px; }
   .posts a {
     display: block;
-    padding-left: 106px; }
+    padding-left: 85px; }
+
+.post-meta {
+  padding: 2px 10px 0 85px;
+  display: inline-block; }
 
 .post-title {
   font-weight: bold;
@@ -243,7 +247,7 @@ em, i {
 
 .recent-posts {
   float: left;
-  width: 400px; }
+  width: 430px; }
 
 .recent-tweets {
   float: left; }

@@ -5,7 +5,7 @@ disqus_hide: true
 hide_title: true
 ---
 <div class='recent-posts'>
-  <p style='margin-right:10px;width:350px;'>
+  <p style='margin-right:10px;width:410px;'>
     Hey there, I'm Matt&mdash;thanks for the visit.
   </p>
   <p style='margin-right:10px;width:350px;'>
@@ -19,17 +19,20 @@ hide_title: true
     and
     <a class='strong black' href='/bio.html'>bio.</a>
   </p>
-  <p style='margin-right:10px;width:350px;'>
-    Don't forget to
-    <a class='strong black' href='http://www.overlap.me'>sign up</a>
-    for Overlap.me.
+  <!-- %p{:style=>"margin-right:10px;width:350px;"} -->
+  <!-- Don't forget to -->
+  <!-- %a.strong.black{:href=>"http://www.overlap.me"} sign up -->
+  <!-- for Overlap.me. -->
+  <p class='strong black'>
+    Latest posts:
   </p>
-  <ul class='posts' style='margin-right:10px;width:350px;'>
+  <ul class='posts' style='margin-right:10px;width:410px;'>
     {% for post in site.posts limit:10 %}
     {% if post.hide_from_nav == null %}
     <li>
       <div class='date'>{{ post.date | date_to_string }}</div>
       <a href='{{ post.url }}'>{{ post.title }}</a>
+      <!-- %span.post-meta {{ post.meta }} -->
     </li>
     {% endif %}
     {% endfor %}

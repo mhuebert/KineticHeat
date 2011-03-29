@@ -2,7 +2,7 @@
 title: Trying to Matter
 layout: default
 category:
-meta: Memories of pre-war Congo from my childhood, and a story of violence which occurred long after I was gone.
+meta: Childhood memories of pre-war Congo, and the story of violence which occurred long after I was gone.
 ---
 
 
