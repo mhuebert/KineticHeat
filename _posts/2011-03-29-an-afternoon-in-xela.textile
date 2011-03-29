@@ -3,6 +3,7 @@ title: An Afternoon in Xela
 layout: default
 category: remembering
 meta: The day I stopped listening for the voice of God inside my head.
+hide_from_nav: true
 ---
 
 Alejandro had a crooked thumb. Lanky. I ran into him in an alley, standing on the cobblestones. It was a small city but I was struck by it, the coincidence. I wondered if I had been drawn there by the Voice.
@@ -18,3 +19,7 @@ Well this day was different because I was closer to an edge I suppose. Half mad 
 It wasn't the full end of God yet for me but it was a start, it stopped a lot of circles from spinning in my head right there.
 
 So Alejandro was just a friend I knew through a friend and we chatted for a few minutes and I kept walking and that's all. No voice that day and never after.
+
+!/images/photography/Guatemala-006.jpg(Xela, Guatemala)!
+
+p(caption){text-align:right;width:670px;margin-top:-10px;}. Xela (Quetzaltenango), Guatemala
