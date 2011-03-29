@@ -4,7 +4,7 @@ elements:
   - categories: [ cv, entrepreneurial ]
     name: "Overlap.me"
     title: Founder/CEO
-    detail: "An experimental online community. <a href='http://alpha.overlap.me'>Sign up</a> to participate"
+    detail: "An experimental online community. <a href='http://alpha.overlap.me'>Sign up</a> to participate."
     length: 5
     years: 2010-2011
     date: 2010-09
@@ -13,7 +13,7 @@ elements:
     name: School of Discipleship
     title: student
     locations: Winnipeg, Canada
-    detail: Theology & cultural studies in Canada and Guatemala (pre-atheism)
+    detail: Theology & cultural studies in Canada and Guatemala (pre-atheism).
     length: 8
     years: 2001-2002
     date: 2002-04
@@ -21,7 +21,7 @@ elements:
   - categories: [ cv, education ]
     name: Athabasca University
     title: student
-    detail: Political Economy, A+ average (two terms)
+    detail: Political Economy, A+ average (two terms).
     length: 8
     years: 2004-2005
     date: 2005-04
@@ -30,7 +30,7 @@ elements:
     name: University of Saskatchewan 
     title: student
     locations: Saskatoon, Canada
-    detail: Arts & Science, 91% average (two terms)
+    detail: Arts & Science, 91% average (two terms).
     length: 8
     years: 2003-2004
     date: 2004-04
@@ -38,7 +38,7 @@ elements:
   - categories: [ cv, education ]
     name: Forum for International Trade Training
     title: student
-    detail: A short course in "global entrepreneurship"
+    detail: A short course in "global entrepreneurship."
     length: 3
     years: 2003
     date: 2003-06
@@ -47,7 +47,7 @@ elements:
     name: Youth Unlimited 
     title: intern
     locations: Washington State
-    detail: Mentoring youth in Washington State
+    detail: Mentoring youth in Washington State.
     length: 3
     years: 2002
     date: 2002-12
@@ -56,7 +56,7 @@ elements:
     name: Habitat for Humanity
     title: intern
     locations: Guatemala
-    detail: Design & communications in the Guatemala national office
+    detail: Design & communications in the Guatemala national office.
     length: 3.5
     years: 2003
     date: 2003-12
@@ -65,7 +65,7 @@ elements:
     name: Junior Team Canada
     title: team leader
     locations: China, Singapore, Malaysia, Chile
-    detail: Strengthening economic relations with Asia & South America
+    detail: Strengthening economic relations with Asia & South America.
     length: 14
     years: 2004-2005
     date: 2005-08
@@ -74,7 +74,7 @@ elements:
     name: YouthInside 
     title: co-founder
     locations: Hong Kong
-    detail: Encouraging youth to start international companies
+    detail: Encouraging youth to start international companies.
     length: 3
     years: 2005-2006
     date: 2006-01
@@ -83,7 +83,7 @@ elements:
     name: Bodo
     title: co-founder
     locations: Beijing, China; Calgary, Canada
-    detail: Wellness product design, retail and distribution company
+    detail: Wellness product design, retail and distribution company. See <a href='http://www.bodo.ca'>website</a>.
     length: 24
     years: 2006-2008
     date: 2010-08
@@ -91,7 +91,7 @@ elements:
   - categories: [ cv, entrepreneurial, technical ]
     name: Design & Development
     title: Consultant
-    detail: Using technology and design to get results. See <a href='http://www.inadacanada.com'>Inada</a>, <a href='http://www.mattepp.com'>Matt Epp</a>
+    detail: Using technology and design to get results. See <a href='http://www.inadacanada.com'>Inada</a>, <a href='http://www.mattepp.com'>Matt Epp</a>.
     length: 48
     years: 1999-2011
     date: 2008-01
@@ -100,7 +100,7 @@ elements:
     name: Ethical Style 
     title: Founder/CEO
     locations: Guatemala, South East Asia, Canada
-    detail: For-profit venture supporting artesans in developing economies
+    detail: For-profit venture supporting artesans in developing economies.
     length: 12
     years: 2003-2004
     date: 2004-12
@@ -109,7 +109,7 @@ elements:
     name: Saskatchewan Trade & Export Partnership 
     title: intern
     locations: Saskatoon, Canada
-    detail: Helping local businesses develop international markets
+    detail: Helping local businesses develop international markets.
     length: 3
     years: 2005
     date: 2005-08
@@ -118,7 +118,7 @@ elements:
     name: Nata Reforestation & Management
     title: treeplanter
     locations: Tumbler Ridge, British Columbia
-    detail: Did it for the money
+    detail: Did it for the money.
     length: 3
     years: 2002
     date: 2002-08
@@ -127,7 +127,7 @@ elements:
     name: National Millennium Excellence Award
     title: recipient
     locations: Ottawa
-    detail: Top 100 of 7000 applicants
+    detail: Top 100 of 7000 applicants.
     date: 2003-09
     passion: 0
     years: 2003-2005
@@ -135,7 +135,7 @@ elements:
     name: Kramer Scholarship
     title: recipient
     locations: University of Saskatchewan
-    detail: For "outstanding leadership"
+    detail: For "outstanding leadership."
     date: 2003-08
     years: 2003
     passion: 0
@@ -143,7 +143,7 @@ elements:
     name: Valedictorian
     title: recipient
     locations: Lanigan Central High School
-    detail: Lanigan Central High School, Lanigan, Saskatchewan, Canada
+    detail: Lanigan Central High School, Lanigan, Saskatchewan, Canada.
     date: 2001-05
     years: 2001
     passion: 0
