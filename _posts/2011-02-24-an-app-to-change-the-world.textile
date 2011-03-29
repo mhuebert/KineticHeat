@@ -2,7 +2,7 @@
 title: An App to Change the World (and pry yourself off Facebook)
 layout: default
 category: proposing
-meta: So I’m sitting at Startup Drinks in Vancouver last night when Delano Mandelbaum, the singular human force behind website monitoring tool BlameStella, lends me a productivity tip which I think might just change the world, if only it can be paired with a great user interface...
+meta: A productivity tip which I think might just change the world, if only it can be paired with a great user interface...
 ---
 
 So I'm sitting at "Startup Drinks":http://www.startupdrinks.ca/ in Vancouver last night when "Delano Mandelbaum":http://goldensword.ca/, the singular human force behind website monitoring tool "BlameStella":https://www.blamestella.com, lends me a productivity tip which I think might just change the world, if only it can be paired with a great user interface.
