@@ -2,7 +2,7 @@
 title: An Afternoon in Xela
 layout: default
 category: remembering
-meta: The day I stopped listening for the Voice.
+meta: The day of the end of the Voice.
 ---
 
 !/post-images/xela.jpg(Xela, Guatemala)!
