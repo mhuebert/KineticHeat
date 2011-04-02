@@ -1,8 +1,8 @@
 ---
-title: End of the Voice
+title: End of a Voice
 layout: default
 category: remembering
-meta: The day of the end of the Voice.
+meta: An afternoon in Xela. A chance encounter. The End of a Voice.
 ---
 
 !/post-images/xela.jpg(Xela, Guatemala)!
