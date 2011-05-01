@@ -347,6 +347,11 @@ em, i {
   .vtabs-content-item.active {
     display: block; }
 
+.vtabs-controller {
+  position: absolute;
+  top: 20px;
+  left: 0; }
+
 .vtabs-controller a {
   height: 23px;
   display: block;
@@ -375,8 +380,11 @@ em, i {
   padding: 15px 30px;
   width: 530px; }
 
+.vtabs-wrapper {
+  position: relative; }
+
 .vtabs-content {
-  margin-left: -20px; }
+  margin-left: 150px; }
 
 .vtabs-content-item hr {
   width: 590px;
