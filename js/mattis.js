@@ -18,14 +18,14 @@
           vtabswrapper.find('.vtabs-controller a').removeClass('selected');
           vtabswrapper.find('.vtabs-controller a[href=' + $(this).attr('href') + ']').addClass('selected');
           targetpanel = vtabswrapper.find('#' + $(this).attr('href').substr(1));
-          targetpanel.slideDown();
-          return vtabswrapper.find('.vtabs-content-item').not(targetpanel).slideUp();
+          targetpanel.show();
+          vtabswrapper.find('.vtabs-content-item').not(targetpanel).hide();
+          return false;
         });
       });
     };
     if ($('.vtabs-wrapper').length > 0) {
       $('.vtabs-wrapper').vtabs();
-      console.log("got");
     }
     $(".nav a.active").removeClass("active");
     if (window.location.pathname === "/") {

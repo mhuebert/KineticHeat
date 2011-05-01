@@ -378,7 +378,8 @@ em, i {
   background: white url(../images/vtab_content_mid.png) repeat-y;
   float: left;
   padding: 15px 30px;
-  width: 530px; }
+  width: 530px;
+  min-height: 200px; }
 
 .vtabs-wrapper {
   position: relative; }

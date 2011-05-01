@@ -18,17 +18,13 @@ $ ->
   		vtabswrapper.find('.vtabs-controller a, .vtabs-content a.vtabs-nav').bind 'click', ->
   			vtabswrapper.find('.vtabs-controller a').removeClass('selected') #; // remove 'selected' from all nav links
   			vtabswrapper.find('.vtabs-controller a[href='+$(this).attr('href')+']').addClass('selected') # add 'selected' to the link inside vtabs-controller whose ID equals the #href of the link that we're applying this event to
-			
-			
   			targetpanel = vtabswrapper.find('#'+$(this).attr('href').substr(1)) #  the target panel is the one with the #id of the #href of the link that was clicked
-  			targetpanel.slideDown()
-  			vtabswrapper.find('.vtabs-content-item').not(targetpanel).slideUp() # hide all content
-        # return false
+  			targetpanel.show() #.slideDown()
+  			vtabswrapper.find('.vtabs-content-item').not(targetpanel).hide() #slideUp()
+  			return false
 		
   if $('.vtabs-wrapper').length > 0
     $('.vtabs-wrapper').vtabs()
-    console.log "got"			
-
 
   $(".nav a.active").removeClass("active")
   if window.location.pathname == "/"
