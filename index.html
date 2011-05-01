@@ -1,70 +1,31 @@
 ---
-title: Entrepreneur, designer, programmer, writer
+title: Zeo Sleep Science
 layout: default
-disqus_hide: true
-hide_title: true
 ---
-<div class='recent-posts'>
-  <p style='margin-right:10px;width:410px;'>
-    Hey there, I'm Matt&mdash;thanks for the visit.
-  </p>
-  <p style='margin-right:10px;width:350px;'>
-    Below are a few posts from my
-    <a class='strong black' href='/blog.html'>blog.</a>
-    You can also see
-    <a class='strong black' href='/photography.html'>photography</a>
-    from Canada and Guatemala, my
-    <a class='strong black' href='/cv.html'>CV</a>
-    (which is a bit of a design experiment),
-    and
-    <a class='strong black' href='/bio.html'>bio.</a>
-  </p>
-  <!-- %p{:style=>"margin-right:10px;width:350px;"} -->
-  <!-- Don't forget to -->
-  <!-- %a.strong.black{:href=>"http://www.overlap.me"} sign up -->
-  <!-- for Overlap.me. -->
-  <p class='strong black'>
-    Latest posts:
-  </p>
-  <ul class='posts' style='margin-right:10px;width:410px;'>
-    {% for post in site.posts limit:10 %}
-    {% if post.hide_from_nav == null %}
-    <li>
-      <div class='date'>{{ post.date | date_to_string }}</div>
-      <a href='{{ post.url }}'>{{ post.title }}</a>
-      <!-- %span.post-meta {{ post.meta }} -->
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-  <p class='strong black'>
-    Look me up:
-  </p>
-  <ul class='posts'>
-    <li>
-      <div class='date'>Twitter:</div>
-      <a href='http://twitter.com/mhuebert'>@mhuebert</a>
-    </li>
-    <li>
-      <div class='date'>Facebook:</div>
-      <a href='http://facebook.com/matt.huebert'>facebook.com/matt.huebert</a>
-    </li>
-    <li>
-      <div class='date'>LinkedIn:</div>
-      <a href='http://ca.linkedin.com/in/matthewhuebert'>ca.linkedin.com/in/matthewhuebert</a>
-    </li>
-    <li>
-      <div class='date'>Email:</div>
-      <a>me (at) matt.is</a>
-    </li>
-  </ul>
-  <p class='strong black'>
-    Interesting links:
-  </p>
+<div class='slider-wrap'>
+  <div class='slider' data-auto='true' id='s'>
+    <div class='viewport img-border'>
+      <ul class='overview'>
+        <li class='page' style='background:url(/images/s-1.jpg) no-repeat'>
+          <h2>Meet Zeo, your personal sleep coach.</h2>
+        </li>
+        <li class='page' style='background:url(/images/s-2.gif) no-repeat'>
+          <h2>Use Zeo to understand and improve the quality of your sleep.</h2>
+        </li>
+        <li class='page' style='background:url(/images/s-3.jpg) no-repeat'>
+          <h2>How does it work?</h2>
+        </li>
+        <li class='page' style='background:url(/images/s-6.jpg) no-repeat'>
+          <h2>The more you know, the better you sleep.</h2>
+        </li>
+      </ul>
+    </div>
+    <div class='slider-nav'>
+      <a class='buttons tk-museo prev disable'></a>
+      <a class='buttons tk-museo next'></a>
+    </div>
+  </div>
 </div>
-<div class='recent-tweets'>
-  {% include twitter_list.html %}
-</div>
-<div class='linkroll'>
-  <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=mhuebert&count=100"></script>
-</div>
+<a href='/press.html'>
+  <img src='/images/press-bar.gif' />
+</a>

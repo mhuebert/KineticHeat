@@ -55,49 +55,36 @@ p a, .posts a {
   font-size: 120%; }
 
 body {
-  padding: 0 0 25px 0;
-  background-color: black;
+  background: url(/images/bg.jpg) repeat-x #d8d8d8;
   color: black;
-  font-family: "helvetica neue", Arial, sans-serif;
-  font-size: 80%; }
-
-.bg {
-  position: absolute;
-  right: 730px;
-  top: 0;
-  width: 792px;
-  height: 589px; }
-  .bg img {
-    float: right; }
-
-#facebook-like {
-  margin: 20px 0 0 5px;
-  opacity: 0.5;
-  display: block; }
-  #facebook-like:hover {
-    opacity: 1; }
+  font-family: "Cabin", Arial, sans-serif;
+  font-size: 80%;
+  padding-bottom: 30px; }
 
 .container {
-  min-height: 589px;
-  width: 700px;
-  float: right;
-  background-color: #eeeeee;
-  padding: 0 0 60px 30px;
+  margin: 0 auto;
+  width: 800px;
   position: relative; }
+
+.press-content {
+  position: relative;
+  margin-left: 45px;
+  height: 880px; }
+  .press-content .text, .press-content .logo, .press-content .show {
+    position: absolute; }
+
+#logo {
+  background: url(/images/nav-logo.png) no-repeat;
+  display: inline-block;
+  float: left;
+  width: 75px;
+  height: 53px; }
 
 a {
   text-decoration: none;
   outline: none; }
   a:hover {
     text-decoration: underline; }
-
-h1.matt {
-  font-size: 500%;
-  font-weight: bold;
-  display: block;
-  margin: 0 0 23px -1px;
-  color: #dddddd;
-  clear: both; }
 
 .bottom {
   position: absolute;
@@ -108,25 +95,33 @@ h1.matt {
   .bottom .nav-right {
     padding: 4px 7px 0 0; }
 
+.learn-content {
+  padding: 100px 0 0 0; }
+
 .nav {
-  background-color: #f5f5f5;
   display: inline-block;
-  float: left;
-  margin: 0 0 20px 0;
-  padding: 5px; }
+  float: right;
+  position: relative;
+  z-index: 10; }
   .nav a {
-    color: #cccccc;
+    color: white;
     font-size: 110%;
     display: inline-block;
-    margin: 0 3px;
-    font-weight: bold; }
+    margin: 17px 8px;
+    vertical-align: top; }
     .nav a.active {
-      color: black; }
+      text-decoration: underline; }
     .nav a:hover {
-      color: #aaaaaa; }
-    .nav a.active:hover {
-      color: black;
-      text-decoration: none; }
+      text-decoration: underline; }
+  .nav a.purchase {
+    background: url(/images/purchase-btn.png) no-repeat;
+    display: inline-block;
+    text-indent: -1000px;
+    width: 100px;
+    height: 53px;
+    overflow: hidden;
+    vertical-align: top;
+    margin-top: 0; }
 
 .nav-right {
   float: right;
@@ -281,6 +276,117 @@ em, i {
 
 .clear {
   clear: both; }
+
+.slider {
+  height: 1%;
+  display: inline-block;
+  position: relative; }
+  .slider .slider-nav {
+    text-align: center;
+    padding-top: 10px; }
+  .slider .buttons {
+    position: absolute;
+    top: 340px;
+    z-index: 2;
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding: 3px;
+    height: 59px;
+    width: 122px;
+    cursor: hand; }
+    .slider .buttons.disable {
+      visibility: hidden; }
+      .slider .buttons.disable:hover {
+        cursor: default; }
+    .slider .buttons:hover, .slider .buttons.opacity1 {
+      opacity: 1;
+      cursor: pointer; }
+    .slider .buttons.next {
+      right: -36px;
+      float: none;
+      background-image: url("/images/s-next.png"); }
+    .slider .buttons.prev {
+      left: -36px;
+      float: none;
+      background-image: url("/images/s-back.png"); }
+  .slider .viewport {
+    width: 360px;
+    height: 249px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer; }
+  .slider .overview {
+    list-style: none;
+    position: absolute;
+    text-align: left; }
+  .slider .page {
+    height: 249px;
+    width: 360px;
+    display: inline-block;
+    text-align: center;
+    float: left; }
+
+#s {
+  margin-left: -7px;
+  background: url(/images/s-back.jpg) no-repeat;
+  padding: 20px 30px 20px 10px; }
+  #s .viewport {
+    width: 778px;
+    height: 395px; }
+  #s .page {
+    width: 778px;
+    height: 395px; }
+  #s h2 {
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 0 0; }
+
+.vtabs-content-item {
+  display: none; }
+  .vtabs-content-item.active {
+    display: block; }
+
+.vtabs-controller a {
+  height: 23px;
+  display: block;
+  padding: 8px 0 5px 7px;
+  color: #2b2b2b;
+  text-decoration: none;
+  width: 155px;
+  font-size: 14px; }
+
+.vtabs-controller a.selected {
+  background: url(/images/vtabs_bg.png) no-repeat right;
+  color: white; }
+
+.vtabs-content .next {
+  float: right; }
+
+.vtabs-content-top {
+  background: url(/images/vtab_content_top.png) no-repeat;
+  height: 11px;
+  float: left;
+  width: 100%; }
+
+.vtabs-content-item {
+  background: white url(/images/vtab_content_mid.png) repeat-y;
+  float: left;
+  padding: 15px 30px;
+  width: 530px; }
+
+.vtabs-content {
+  margin-left: -20px; }
+
+.vtabs-content-item hr {
+  width: 590px;
+  margin-left: -30px; }
+
+.vtabs-content-bottom {
+  background: url(/images/vtab_content_bottom.png);
+  height: 11px;
+  float: left;
+  width: 100%; }
 
 .off {
   color: black; }

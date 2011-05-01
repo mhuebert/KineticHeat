@@ -1,69 +1,22 @@
 \---
-title: Entrepreneur, designer, programmer, writer
+title: Zeo Sleep Science
 layout: default
-disqus_hide: true
-hide_title: true
 \---
-.recent-posts
+.slider-wrap 
+  #s.slider{:"data-auto" => "true"}
+    .viewport.img-border
+      %ul.overview
+        %li.page{:style=>"background:url(/images/s-1.jpg) no-repeat"}
+          %h2 Meet Zeo, your personal sleep coach.
+        %li.page{:style=>"background:url(/images/s-2.gif) no-repeat"}
+          %h2 Use Zeo to understand and improve the quality of your sleep.
+        %li.page{:style=>"background:url(/images/s-3.jpg) no-repeat"}
+          %h2 How does it work?
+        %li.page{:style=>"background:url(/images/s-6.jpg) no-repeat"}
+          %h2 The more you know, the better you sleep.
+    .slider-nav
+      %a.buttons.tk-museo.prev.disable
+      %a.buttons.tk-museo.next
 
-  %p{:style=>"margin-right:10px;width:410px;"}
-    Hey there, I'm Matt&mdash;thanks for the visit.
-  %p{:style=>"margin-right:10px;width:350px;"}
-    Below are a few posts from my
-    %a.strong.black{:href=>"/blog.html"} blog.
-    You can also see
-    %a.strong.black{:href=>"/photography.html"} photography
-    from Canada and Guatemala, my
-    %a.strong.black{:href=>"/cv.html"} CV
-    (which is a bit of a design experiment),
-    and
-    %a.strong.black{:href=>"/bio.html"} bio.
-    
-  / %p{:style=>"margin-right:10px;width:350px;"}
-  /   Don't forget to
-  /   %a.strong.black{:href=>"http://www.overlap.me"} sign up
-  /   for Overlap.me.
-
-  %p.strong.black
-    Latest posts:
-  
-  %ul.posts{:style=>"margin-right:10px;width:410px;"}
-    {% for post in site.posts limit:10 %}
-    {% if post.hide_from_nav == null %}
-    %li
-      .date {{ post.date | date_to_string }}
-      %a{:href=>"{{ post.url }}"} {{ post.title }}
-      / %span.post-meta {{ post.meta }}
-    {% endif %}
-    {% endfor %}
-
-
-  %p.strong.black
-    Look me up:
-  %ul.posts
-    %li
-      .date Twitter:
-      %a{:href=>"http://twitter.com/mhuebert"} @mhuebert
-
-    %li  
-      .date Facebook:
-      %a{:href=>"http://facebook.com/matt.huebert"} facebook.com/matt.huebert
-
-    %li  
-      .date LinkedIn:
-      %a{:href=>"http://ca.linkedin.com/in/matthewhuebert"} ca.linkedin.com/in/matthewhuebert
-
-    %li  
-      .date Email:
-      %a me (at) matt.is
-
-  %p.strong.black
-    Interesting links:
-
-.recent-tweets
-  {% include twitter_list.html %}
-
-
-
-.linkroll
-  <script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=mhuebert&count=100"></script>
+%a{:href=>"/press.html"}
+  %img{:src=>"/images/press-bar.gif"}

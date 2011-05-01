@@ -1,66 +1,70 @@
 $ ->
-
-
-  $list = $('#cv')
-  
-  $list.isotope
-    layoutMode: 'straightDown'
-    getSortData:
-      date: ( $elem ) ->
-        return $elem.attr('data-date')
-      ,
-      length: ( $elem ) ->
-        return parseFloat($elem.attr('data-length'))
-      ,
-      passion: ( $elem ) ->
-        return parseFloat($elem.attr('data-passion'))
-      
-    filter: ".entrepreneurial"
-    sortBy: "passion"
-    sortAscending: false
-    animationEngine: 'jquery'
-
-  selectOption = (item) ->
-    item.closest(".view-controller").find(".active").removeClass("active")
-    item.addClass("active")
-
-  
-  $('#filter a').click ->
-    $this = $(this)
-    selectOption $this
-    filterName = $this.attr('href').slice(1)
-    $list.isotope
-      filter : filterName
-    return false
-
-
-  $('#sort a').click ->
-    $this = $(this)
-    selectOption $this
-    sortName = $this.attr('href').slice(1)
-    asc = $this.hasClass("asc")
-    $list.isotope
-      sortBy : sortName
-      sortAscending : asc
-    return false
+  current_anchor = window.location.hash || "blah"
+  $.fn.vtabs = ->
     
+    # // If there is an #anchor on the present link that matches one of our items, get rid of the default 'selected' link and 'active' panel, change it to the one that was requested in the URL
+  	if $('.vtabs-content-item#'+current_anchor).length  # // if there is a vtab with the #id == the current URL #anchor... 
+  		$('.vtabs-content-item').removeClass('active') #; // get rid of the currently 'active' panel
+  		$('.vtabs-content-item#'+current_anchor).addClass('active') #; // activate the panel that matches the #anchor
+  		$('.vtabs-controller a').removeClass('selected') #; // get rid of the currently 'selected' controller link
+  		$('.vtabs-controller a[href*="'+current_anchor+'"]').addClass('selected') #; // select the controller link that matches the anchor
+	
+	
+  	$('.vtabs-content-item').not('.active').hide() #; // hide the content that isn't 'active'
+	
+  	$(this).each ->
+  		vtabswrapper = $(this)
+		
+  		vtabswrapper.find('.vtabs-controller a, .vtabs-content a.vtabs-nav').bind 'click', ->
+  			vtabswrapper.find('.vtabs-controller a').removeClass('selected') #; // remove 'selected' from all nav links
+  			vtabswrapper.find('.vtabs-controller a[href='+$(this).attr('href')+']').addClass('selected') # add 'selected' to the link inside vtabs-controller whose ID equals the #href of the link that we're applying this event to
+			
+			
+  			targetpanel = vtabswrapper.find('#'+$(this).attr('href').substr(1)) #  the target panel is the one with the #id of the #href of the link that was clicked
+  			targetpanel.slideDown()
+  			vtabswrapper.find('.vtabs-content-item').not(targetpanel).slideUp() # hide all content
+        # return false
+		
+  if $('.vtabs-wrapper').length > 0
+    $('.vtabs-wrapper').vtabs()
+    console.log "got"			
+
+
   $(".nav a.active").removeClass("active")
   if window.location.pathname == "/"
     $(".nav a.home").addClass("active")
   else if (link = $(".nav a[href*="+window.location.pathname+"]")).length > 0
     link.addClass("active")
-  else
-    $(".nav a.blog").addClass("active")
-    
   
+  
+  $(".slider").each ->
+    s = $(this)
+    s.tinycarousel
+      animation: true
+      duration: 600
+      axis: 'x'
+      interval: $(this).attr("data-auto") || false
+      intervaltime: 5000
 
-  # currentLayout = 'fitRows'
+    viewport = s.find(".viewport")
+    next = s.find(".next")
+    prev = s.find(".prev")
 
-  # $('#layouts a').click ->
-  #   layoutName = $(this).attr('href').slice(1)
-  #   $list.removeClass( currentLayout ).addClass( layoutName )
-  #   currentLayout = layoutName
-  #   $list.isotope
-  #     layoutMode : layoutName
-  #   return false
+    viewport.click ->
+      if !next.hasClass("disable")
+        next.click()
+      else
+        prev.click()
 
+    viewport.mouseenter ->
+      next.addClass("opacity1")
+    viewport.mouseleave ->
+      next.removeClass("opacity1")
+    next.mouseenter ->
+      next.addClass("opacity1")
+    next.mouseleave ->
+      next.removeClass("opacity1")
+    prev.mouseenter ->
+      prev.addClass("opacity1")
+    prev.mouseleave ->
+      prev.removeClass("opacity1")

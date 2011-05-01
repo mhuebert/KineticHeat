@@ -5,7 +5,7 @@
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <meta charset='utf-8' />
     <meta content='Matthew Huebert' name='author' />
-    <meta content='{% if page.meta %}{{ page.meta }}{% else %}I am an intellectually curious programmer, writer, designer, photographer, and entrepreneur. I thrive on the unfamiliar, and I am a non-theist. I have lived in Guatemala, Argentina, DR Congo, China, and spent periods of time in Colombia and various regions of Central America.{% endif %}' name='description' />
+    <meta content='{% if page.meta %}{{ page.meta }}{% else %}Zeo is a revolutionary sleep data device.{% endif %}' name='description' />
     <meta content='initial-scale = 1.0' name='viewport' />
     <link href='/css/reset.css' rel='stylesheet' type='text/css' />
     <link href='/css/styles.css' rel='stylesheet' type='text/css' />
@@ -14,39 +14,10 @@
     {% include javascripts.html %}
   </head>
   <body>
-    <div class='bg'>
-      <img src='/images/matthew-huebert-bg.jpg' />
-    </div>
     <div class='container'>
       {% include nav.html %}
-      <h1 class='matt'>Matt Huebert</h1>
-      {% if page.hide_title == null %}
-      <div class='post-title'>{{ page.title }}</div>
-      {% endif %}
-      <div class='content'>
-        {{ content }}
-      </div>
-      <div class='bottom-nav'>
-        {% if page.previous %}
-        <a class='prev' href='{{ page.previous.url }}' title='{{ page.previous.title }}'>&larr; Previous</a>
-        {% endif %}
-        <!-- %a{:href=>"/blog.html"} Index -->
-        {% if page.next %}
-        <a class='next' href='{{ page.next.url }}' title='{{ page.next.title }}'>Next &rarr;</a>
-        {% endif %}
-      </div>
-      <div class='clear'></div>
-      {% if page.disqus_hide == null %}
-      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="mhuebert">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-      {% include disqus.html %}
-      {% endif %}
-      <div class='bottom'>
-        {% if page.disqus_hide != null %}
-        {% include facebook.html %}
-        {% endif %}
-        {% include nav.html %}
-      </div>
+      {{ content }}
+      <div class='bottom'></div>
     </div>
-    {% include woopra.html %}
   </body>
 </html>
