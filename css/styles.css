@@ -303,11 +303,11 @@ em, i {
     .slider .buttons.next {
       right: -36px;
       float: none;
-      background-image: url("/images/s-next.png"); }
+      background-image: url("../images/s-next.png"); }
     .slider .buttons.prev {
       left: -36px;
       float: none;
-      background-image: url("/images/s-back.png"); }
+      background-image: url("../images/s-back.png"); }
   .slider .viewport {
     width: 360px;
     height: 249px;
