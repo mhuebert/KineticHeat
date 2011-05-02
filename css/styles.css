@@ -407,7 +407,39 @@ h4 {
   height: 11px;
   float: left;
   width: 100%;
-  margin-bottom: 30px; }
+  margin-bottom: 10px; }
+
+#top {
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+  width: 590px;
+  float: left; }
+
+.gris {
+  color: #777777; }
+
+td {
+  padding-bottom: 15px; }
+
+.story {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #eeeeee; }
+
+.shownext {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline; }
+
+td {
+  vertical-align: top; }
+
+.vtabs-content li {
+  list-style: disc;
+  line-height: 150%; }
+.vtabs-content ul {
+  margin-left: 20px; }
 
 hr {
   background-color: transparent;

@@ -1,6 +1,10 @@
 (function() {
   $(function() {
     var current_anchor, link;
+    $('.shownext').click(function() {
+      $(this).closest('p').next().show();
+      return $(this).hide();
+    });
     current_anchor = window.location.hash || "blah";
     $.fn.vtabs = function() {
       if ($('.vtabs-content-item#' + current_anchor).length) {

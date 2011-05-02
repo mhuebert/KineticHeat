@@ -1,4 +1,7 @@
 $ ->
+  $('.shownext').click ->
+    $(this).closest('p').next().show()
+    $(this).hide()
   current_anchor = window.location.hash || "blah"
   $.fn.vtabs = ->
     
