@@ -323,7 +323,8 @@ em, i {
     width: 360px;
     display: inline-block;
     text-align: center;
-    float: left; }
+    float: left;
+    position: relative; }
 
 #s {
   margin-left: -7px;
@@ -409,8 +410,11 @@ h4 {
   width: 100%;
   margin-bottom: 10px; }
 
-#top {
-  margin-bottom: 20px;
+.vtabs-next {
+  float: right; }
+
+#totop {
+  padding-bottom: 20px;
   display: block;
   text-align: center;
   width: 590px;

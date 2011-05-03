@@ -6,9 +6,9 @@ $ ->
   $.fn.vtabs = ->
     
     # // If there is an #anchor on the present link that matches one of our items, get rid of the default 'selected' link and 'active' panel, change it to the one that was requested in the URL
-  	if $('.vtabs-content-item#'+current_anchor).length  # // if there is a vtab with the #id == the current URL #anchor... 
+  	if $('.vtabs-content-item#'+current_anchor+"-c").length  # // if there is a vtab with the #id == the current URL #anchor... 
   		$('.vtabs-content-item').removeClass('active') #; // get rid of the currently 'active' panel
-  		$('.vtabs-content-item#'+current_anchor).addClass('active') #; // activate the panel that matches the #anchor
+  		$('.vtabs-content-item#'+current_anchor+"-c").addClass('active') #; // activate the panel that matches the #anchor
   		$('.vtabs-controller a').removeClass('selected') #; // get rid of the currently 'selected' controller link
   		$('.vtabs-controller a[href*="'+current_anchor+'"]').addClass('selected') #; // select the controller link that matches the anchor
 	
@@ -21,10 +21,11 @@ $ ->
   		vtabswrapper.find('.vtabs-controller a, .vtabs-content a.vtabs-nav').bind 'click', ->
   			vtabswrapper.find('.vtabs-controller a').removeClass('selected') #; // remove 'selected' from all nav links
   			vtabswrapper.find('.vtabs-controller a[href='+$(this).attr('href')+']').addClass('selected') # add 'selected' to the link inside vtabs-controller whose ID equals the #href of the link that we're applying this event to
-  			targetpanel = vtabswrapper.find('#'+$(this).attr('href').substr(1)) #  the target panel is the one with the #id of the #href of the link that was clicked
+  			targetpanel = vtabswrapper.find('#'+$(this).attr('href').substr(1)+"-c") #  the target panel is the one with the #id of the #href of the link that was clicked
   			targetpanel.show() #.slideDown()
   			vtabswrapper.find('.vtabs-content-item').not(targetpanel).hide() #slideUp()
-  			return false
+  			window.location.hash = "top"
+        # return false
 		
   if $('.vtabs-wrapper').length > 0
     $('.vtabs-wrapper').vtabs()
