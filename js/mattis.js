@@ -37,6 +37,20 @@
     } else if ((link = $(".nav a[href*=" + window.location.pathname + "]")).length > 0) {
       link.addClass("active");
     }
+    $('.qa').each(function() {
+      $(this).find(".q").click(function() {
+        var a;
+        a = $(this).next(".a");
+        if (a.is(":visible")) {
+          return a.slideUp();
+        } else {
+          return a.slideDown();
+        }
+      });
+      return $(this).find(".a .hider").click(function() {
+        return $(this).closest(".a").slideUp();
+      });
+    });
     return $(".slider").each(function() {
       var next, prev, s, viewport;
       s = $(this);

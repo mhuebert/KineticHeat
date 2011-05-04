@@ -2,3 +2,79 @@
 title: Support
 layout: default
 \---
+
+.vtabs-wrapper  
+  %ul.vtabs-controller
+    %li
+      %a.selected{:href=>"#questions"} Questions
+    %li
+      %a{:href=>"#manuals"} User Manuals
+    %li
+      %a{:href=>"#contact"} Contact Us     
+  .vtabs-content
+    .vtabs-content-top
+    #questions-c.vtabs-content-item.qa.active
+      .q Is it possible to analyze my data outside of your website?
+      .a 
+        %p
+          To access your data outside of the myZeo.com coaching site, you can download your sleep data and your Sleep Journal to a CSV file that you can view in Microsoft Excel and many other applications. Here’s how:
+        %ul
+          %li Make sure you’ve allowed pop-ups from mySleep. myZeo.com in your browser (Internet Explorer users especially)
+          %li Log in to your myZeo account and click the ‘Export Data‘ link in the right hand navigation bar
+          %li Click the ‘Export Data‘ button to start your download, and click ‘Export Data Help Sheet’ for help interpreting
+      .q How do I upload my sleep data?
+      .a
+        %p For your convenience, we’ve provided a video tutorial when you click on the ‘Upload Your Sleep Data’ button in your myZeo account. In addition, here are step-by-step instructions:
+        %ul
+          %li On your bedside display, gently push the SD memory card to eject it.
+          %li Remove caps from both ends of the myZeo card reader. Insert the SD card into the slot on the end of the myZeo card reader.
+          %li Insert the card reader into your computer’s USB port.
+          %li Sign into myZeo. (You can also sign in by clicking ‘Sign in for myZeo’ at the top right of any page on www.myZeo.com.) Make sure you’ve created a myZeo account.
+          %li Click ‘Upload Your Sleep Data’ and then click ‘Next’.
+          %li Search your computer for your sleep data by clicking ‘Browse’. Your ZEOSLEEP.DAT file will be located in the Zeo folder on your SD card. Once you have selected the file, hit ‘Next’ to upload your data.
+          %li Zeo automatically recognizes new nights of data stored on your card. Select which nights of data to upload then click ‘Next’. An upload confirmation will then appear on your computer screen.
+          %li Remember to put your SD card back into Zeo. Can I remove a night of data from my online myZeo account?
+        %p We are happy to remove a night or two of data you do not want, and will do so upon request. Just email support@zeo.am with the date and ZQ of the night you would like erased.
+        %p Before you upload data, you can also choose to exclude nights. When you upload data to your account, you’ll see a check box below each night of data. You can un-check the box for the nights of data that you would prefer not to upload.
+      .q Can I print my Sleep Graphs?
+      .a
+        %p Currently, the best way to print your sleep information is to take a screen shot and print from another application. If you are using a PC, to take a screen shot, press ALT+PRINT SCREEN. On a Mac, press COMMAND+SHIFT+3. In Windows Vista you can also use a “sniping tool” to take a shot of a smaller area and then copy and paste that image into a Word document for easy printing.
+      .q Is the amount of REM or Deep Sleep I’m getting normal?
+      .a
+        %p Deep and REM sleep are the times during the night when the body undergoes the most physical and mental restoration. Deep sleep generally occurs within the first third of the night, while REM sleep occurs mostly in the final third of the night. This means that in order for your body to get the Restorative sleep it needs, you need to make sure you sleep for the right duration, and that you have few factors stealing from your sleep.
+
+        %p Everyone requires a different amount of sleep (Restorative or total) each night — there isn’t a “normal” amount, though if you check out the Sleep Age wheel that came with Zeo, you can find typical averages and ranges based on age. A good way to figure out how much sleep you need is by considering how you feel during the day. Keep recording your sleep journal and uploading your data, and participating in the online coaching program — these will all help you learn how to get a night of rest that’s good for you!
+      .q Can multiple people use Zeo?
+      .a
+        %p Zeo is designed for one person to use at a time since it will record only one person’s sleep data per night. In addition, each Zeo is associated with one myZeo.com account. If you would like another mySleep.myZeo.com account (for a spouse, friend, etc.) please email support@zeo.am and we would be happy to set one up.  That way you and a friend or spouse could trade off nights of sleeping with Zeo and each have a separate mySleep.myZeo.com account for your data. Just be careful not confuse the data and upload to the wrong account!
+      .q My wireless doesn’t seem to be working. What can I do?
+      .a
+        %p First, check to make sure your headband is fully charged. The headband should charge on top of the bedside display for about two hours before it is used. If you see a pulsing battery icon on the bedside display screen, the headband is charging.
+        %p Next, check to see that your headband is communicating with your bedside display. If it is communicating, you will see a headband icon appear on the bedside display screen when you undock the headband.
+        %p When you put on your headband, you should see an icon of a head wearing the headband appear on the bedside display screen. If one or both of these do not appear, try unplugging your bedside display for 10 seconds and then plugging it back in.
+        %p Static electricity, especially in the winter, can cause the headband and bedside display to stop communicating. After you’ve power cycled your Zeo, try to touch something metal before picking up the Zeo Headband. Also make sure not to touch the silverized fabric sensors, or anything else on the sensor pad or module, with anything but your forehead.
+      .q What does “Incomplete Data” mean?
+      .a
+        %p Incomplete Data, either on the website or on the bedside display, means that Zeo was unable to record at least 25% of your night’s sleep. This can happen especially if you’re just starting to use Zeo and you’re getting used to the headband. If you do get a night of incomplete data, don’t worry! Adjust the headband, give it a try the next night, and see if the problem resolves itself. If it doesn’t, try docking the headband, inserting the SD card, pulling out the SD card out and uploading again.
+      .q Still have questions?
+      .a
+        %p Find more frequently asked questions by logging into your myZeo account and clicking on ‘Customer Support’. You’ll see a link for ‘FAQs’ on the left hand side of the screen. You can also reach us by emailing support@zeo.am.
+    #manuals-c.vtabs-content-item
+      .download
+        %a{:href=>"downloads/getting-started.pdf"}
+          %img{:src=>"images/support-getting-started.gif"}
+          %br
+          Getting Started
+      .download
+        %a{:href=>"downloads/headband.pdf"}
+          %img{:src=>"images/support-headband.gif"}
+          %br
+          Headband
+      .download
+        %a{:href=>"downloads/sleep-book.pdf"}
+          %img{:src=>"images/support-sleep-book.gif"}
+          %br
+          Sleep Book
+    #contact-c.vtabs-content-item
+    .vtabs-content-bottom
+    %a#totop{:href=>"#"} Back to Top

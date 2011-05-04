@@ -36,7 +36,15 @@ $ ->
   else if (link = $(".nav a[href*="+window.location.pathname+"]")).length > 0
     link.addClass("active")
   
-  
+  $('.qa').each ->
+    $(this).find(".q").click ->
+      a = $(this).next(".a")
+      if a.is(":visible")
+        a.slideUp()
+      else
+        a.slideDown()
+    $(this).find(".a .hider").click ->
+      $(this).closest(".a").slideUp()
   $(".slider").each ->
     s = $(this)
     s.tinycarousel

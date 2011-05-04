@@ -68,6 +68,7 @@ body {
 .press-content {
   position: relative;
   margin-left: 45px;
+  margin-top: 20px;
   height: 880px; }
   .press-content .text, .press-content .logo, .press-content .show {
     position: absolute; }
@@ -93,9 +94,6 @@ a {
     margin: 0; }
   .bottom .nav-right {
     padding: 4px 7px 0 0; }
-
-.learn-content {
-  padding: 100px 0 0 0; }
 
 .nav {
   display: inline-block;
@@ -368,6 +366,19 @@ em, i {
 .vtabs-content .next {
   float: right; }
 
+.content {
+  background-color: white;
+  border: 1px solid #cccccc;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  padding: 15px; }
+  .content h2 {
+    margin: 0 0 20px 0;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 0; }
+
 .vtabs-content-top {
   background: url(../images/vtab_content_top.png) no-repeat;
   height: 11px;
@@ -385,6 +396,7 @@ em, i {
     margin-right: 10px; }
 
 .vtabs-wrapper {
+  margin-left: 15px;
   position: relative; }
 
 .vtabs-content {
@@ -402,6 +414,24 @@ h3 {
 h4 {
   font-weight: bold;
   margin-bottom: 6px; }
+
+.download {
+  display: inline-block;
+  margin: 0 30px 0 0;
+  padding: 8px;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid transparent;
+  border-color: transparent #eeeeee #eeeeee transparent; }
+  .download:hover {
+    background-color: #eeeeee;
+    border-color: transparent #cccccc #cccccc transparent; }
+  .download a {
+    color: black; }
+  .download a:hover {
+    text-decoration: none; }
+  .download img {
+    margin: 0 0 5px 0; }
 
 .vtabs-content-bottom {
   background: url(../images/vtab_content_bottom.png) no-repeat;
@@ -449,6 +479,24 @@ hr {
   background-color: transparent;
   border: none;
   margin-bottom: 20px; }
+
+.qa .q {
+  margin: 0 0 20px;
+  font-weight: bold;
+  cursor: pointer; }
+  .qa .q:hover {
+    text-decoration: underline; }
+.qa .a {
+  display: none;
+  background-color: #eeeeee;
+  padding: 10px;
+  margin-bottom: 10px; }
+  .qa .a.active {
+    display: block; }
+.qa .hider {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline; }
 
 .off {
   color: black; }
