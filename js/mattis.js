@@ -10,17 +10,17 @@
       if ($('.vtabs-content-item#' + current_anchor + "-c").length) {
         $('.vtabs-content-item').removeClass('active');
         $('.vtabs-content-item#' + current_anchor + "-c").addClass('active');
-        $('.vtabs-controller a').removeClass('selected');
-        $('.vtabs-controller a[href*="' + current_anchor + '"]').addClass('selected');
+        $('.vtabs-controller a.vnav').removeClass('selected');
+        $('.vtabs-controller a.vnav[href*="' + current_anchor + '"]').addClass('selected');
       }
       $('.vtabs-content-item').not('.active').hide();
       return $(this).each(function() {
         var vtabswrapper;
         vtabswrapper = $(this);
-        return vtabswrapper.find('.vtabs-controller a, .vtabs-content a.vtabs-nav').bind('click', function() {
+        return vtabswrapper.find('.vtabs-controller a.vnav, .vtabs-content a.vtabs-nav').bind('click', function() {
           var targetpanel;
-          vtabswrapper.find('.vtabs-controller a').removeClass('selected');
-          vtabswrapper.find('.vtabs-controller a[href=' + $(this).attr('href') + ']').addClass('selected');
+          vtabswrapper.find('.vtabs-controller a.vnav').removeClass('selected');
+          vtabswrapper.find('.vtabs-controller a.vnav[href=' + $(this).attr('href') + ']').addClass('selected');
           targetpanel = vtabswrapper.find('#' + $(this).attr('href').substr(1) + "-c");
           targetpanel.show();
           vtabswrapper.find('.vtabs-content-item').not(targetpanel).hide();
@@ -31,10 +31,10 @@
     if ($('.vtabs-wrapper').length > 0) {
       $('.vtabs-wrapper').vtabs();
     }
-    $(".nav a.active").removeClass("active");
+    $(".nav a.vnav.active").removeClass("active");
     if (window.location.pathname === "/") {
-      $(".nav a.home").addClass("active");
-    } else if ((link = $(".nav a[href*=" + window.location.pathname + "]")).length > 0) {
+      $(".nav a.vnav.home").addClass("active");
+    } else if ((link = $(".nav a.vnav[href*=" + window.location.pathname + "]")).length > 0) {
       link.addClass("active");
     }
     $('.qa').each(function() {

@@ -1,4 +1,9 @@
 ---
+<!-- Product Prices: -->
+item-zeo: 199
+item-sd-card: 14.95
+item-sensor-1: 14.95
+item-sensor-3: 34.95
 title: Purchase
 layout: default
 ---
@@ -6,15 +11,68 @@ layout: default
   <div class='vtabs-wrapper'>
     <ul class='vtabs-controller'>
       <li>
-        <a class='selected' href='#purchase'>Purchase</a>
+        <a class='vnav selected' href='#purchase'>Purchase</a>
       </li>
       <li>
-        <a href='#questions'>Questions</a>
+        <a class='vnav' href='#questions'>Questions</a>
+      </li>
+      <li>
+        <a class='ec_ejc_thkbx' href='https://www.e-junkie.com/ecom/gb.php?c=cart&amp;cl=167905&amp;ejc=2' onClick='javascript:return EJEJC_lc(this);' style='color: #777' target='ej_ejc'>View Cart</a>
       </li>
     </ul>
     <div class='vtabs-content'>
       <div class='vtabs-content-top'></div>
-      <div class='vtabs-content-item active' id='purchase-c'></div>
+      <div class='vtabs-content-item active' id='purchase-c'>
+        <img align='left' class='prod' src='images/purchase-zeo.jpg' />
+        <h2>Zeo</h2>
+        <p>Everything you need for your personal sleep exploration is included: bedside display, headband w/ SoftWave™ sensor & unlimited access to your online analytical tools.</p>
+        <div class='price'>${{page.item-zeo}}</div>
+        <br />
+        <a class='add-to-cart ec_ejc_thkbx' href='https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=934381&amp;cl=167905&amp;ejc=2' onClick='javascript:return EJEJC_lc(this);' target='ej_ejc'>
+          <img src='images/purchase-add-to-cart-lg.jpg' />
+        </a>
+        <div class='clear'></div>
+        <div class='item'>
+          <h4>SD Card &amp; Reader Package</h4>
+          <img align='left' class='prod' src='images/purchase-sd.jpg' />
+          <p>This package contains an SD card and SD card reader. The SD card reader connects to a USB port on your computer to allow you to upload your sleep data to mysleep.myzeo.com as often as you'd like.</p>
+          <p>Pre-formatted for use with Zeo. Card reader available in black only.</p>
+          <div class='transact'>
+            <div class='price'>
+              ${{page.item-sd-card}}
+            </div>
+            <a class='add-to-cart ec_ejc_thkbx' href='https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=934382&amp;cl=167905&amp;ejc=2' onClick='javascript:return EJEJC_lc(this);' target='ej_ejc'>
+              <img src='images/purchase-add-to-cart-sm.jpg' />
+            </a>
+          </div>
+        </div>
+        <div class='item'>
+          <h4>Replacement Headband Strap & Sensor Package (x1)</h4>
+          <img align='left' class='prod' src='images/purchase-headband.jpg' />
+          <p>To ensure your Zeo Personal Sleep Coach is tracking your unique sleep patterns as accurately as possible, we recommend replacing the Headband Strap and SoftWave sensor after 90 days of use. This package contains one replacement Headband Strap and SoftWave Sensor to maintain your headband's snug and comfortable fit while ensuring the highest possible sensor accuracy for up to three months of use.</p>
+          <div class='transact'>
+            <div class='price'>
+              ${{page.item-sensor-1}}
+            </div>
+            <a class='add-to-cart ec_ejc_thkbx' href='https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=934383&amp;cl=167905&amp;ejc=2' onClick='javascript:return EJEJC_lc(this);' target='ej_ejc'>
+              <img src='images/purchase-add-to-cart-sm.jpg' />
+            </a>
+          </div>
+        </div>
+        <div class='item'>
+          <h4>Replacement Headband Strap & Sensor Package (x3)</h4>
+          <img align='left' class='prod' src='images/purchase-headband.jpg' />
+          <p>Same as above, but includes three replacement headband straps and SoftWave sensors.</p>
+          <div class='transact'>
+            <div class='price'>
+              ${{page.item-sensor-3}}
+            </div>
+            <a class='add-to-cart ec_ejc_thkbx' href='https://www.e-junkie.com/ecom/gb.php?c=cart&amp;i=934384&amp;cl=167905&amp;ejc=2' onClick='javascript:return EJEJC_lc(this);' target='ej_ejc'>
+              <img src='images/purchase-add-to-cart-sm.jpg' />
+            </a>
+          </div>
+        </div>
+      </div>
       <div class='vtabs-content-item qa' id='questions-c'>
         <div class='q'>Can multiple people use Zeo?</div>
         <div class='a'>
@@ -77,6 +135,7 @@ layout: default
       </div>
       <div class='vtabs-content-bottom'></div>
       <a href='#' id='totop'>Back to Top</a>
+      <script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script>
     </div>
   </div>
 </div>

@@ -1,5 +1,6 @@
 permalink: /:categories/:title
 exclude: /work
+
 elements:
   - categories: [ cv, entrepreneurial ]
     name: "Overlap.me"

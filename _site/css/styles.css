@@ -406,6 +406,18 @@ em, i {
   width: 590px;
   margin-left: -30px; }
 
+h2 {
+  font-size: 160%; }
+
+.price {
+  background-color: #d3ffd8;
+  border: 1px solid #97d39e;
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 150%;
+  margin-bottom: 8px;
+  vertical-align: top; }
+
 h3 {
   font-weight: bold;
   font-size: 140%;
@@ -414,6 +426,22 @@ h3 {
 h4 {
   font-weight: bold;
   margin-bottom: 6px; }
+
+.item {
+  margin: 0 0 10px 0;
+  padding: 15px 8px 8px 15px;
+  background-color: #eeeeee;
+  border: 1px solid transparent;
+  border-color: transparent #cccccc #cccccc transparent; }
+  .item .transact {
+    text-align: right; }
+  .item .price {
+    font-size: 130%;
+    padding: 3px 8px;
+    margin-right: 5px; }
+  .item img.prod {
+    margin-right: 8px;
+    border: 1px solid #cccccc; }
 
 .download {
   display: inline-block;
@@ -497,6 +525,9 @@ hr {
   color: blue;
   cursor: pointer;
   text-decoration: underline; }
+
+.add-to-cart {
+  margin-left: -3px; }
 
 .off {
   color: black; }

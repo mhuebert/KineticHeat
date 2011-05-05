@@ -1,17 +1,64 @@
 \---
+
+/ Product Prices:
+item-zeo: 199
+item-sd-card: 14.95
+item-sensor-1: 14.95
+item-sensor-3: 34.95
+
+
 title: Purchase
 layout: default
+
 \---
 .learn-content
   .vtabs-wrapper  
     %ul.vtabs-controller
       %li
-        %a.selected{:href=>"#purchase"} Purchase
+        %a.vnav.selected{:href=>"#purchase"} Purchase
       %li
-        %a{:href=>"#questions"} Questions
+        %a.vnav{:href=>"#questions"} Questions
+      %li
+        %a.ec_ejc_thkbx{:href=>"https://www.e-junkie.com/ecom/gb.php?c=cart&cl=167905&ejc=2", :target=>"ej_ejc", :onClick=>"javascript:return EJEJC_lc(this);", :style=>"color: #777"} View Cart
     .vtabs-content
       .vtabs-content-top
       #purchase-c.vtabs-content-item.active
+        %img.prod{:src=>"images/purchase-zeo.jpg", :align=>"left"}
+        %h2 Zeo
+        %p Everything you need for your personal sleep exploration is included: bedside display, headband w/ SoftWave™ sensor & unlimited access to your online analytical tools.
+        .price ${{page.item-zeo}}
+        %br
+        %a.add-to-cart{:href=>"https://www.e-junkie.com/ecom/gb.php?c=cart&i=934381&cl=167905&ejc=2", :target =>"ej_ejc", :class =>"ec_ejc_thkbx", :onClick=>"javascript:return EJEJC_lc(this);"}
+          %img{:src=>"images/purchase-add-to-cart-lg.jpg"}
+        .clear
+        .item
+          %h4 SD Card &amp; Reader Package
+          %img.prod{:src=>"images/purchase-sd.jpg", :align=>"left"}
+          %p This package contains an SD card and SD card reader. The SD card reader connects to a USB port on your computer to allow you to upload your sleep data to mysleep.myzeo.com as often as you'd like. 
+          %p Pre-formatted for use with Zeo. Card reader available in black only.
+          .transact
+            .price
+              ${{page.item-sd-card}}
+            %a.add-to-cart{:href=>"https://www.e-junkie.com/ecom/gb.php?c=cart&i=934382&cl=167905&ejc=2", :target =>"ej_ejc", :class =>"ec_ejc_thkbx", :onClick=>"javascript:return EJEJC_lc(this);"}
+              %img{:src=>"images/purchase-add-to-cart-sm.jpg"}
+        .item
+          %h4 Replacement Headband Strap & Sensor Package (x1)
+          %img.prod{:src=>"images/purchase-headband.jpg", :align=>"left"}
+          %p To ensure your Zeo Personal Sleep Coach is tracking your unique sleep patterns as accurately as possible, we recommend replacing the Headband Strap and SoftWave sensor after 90 days of use. This package contains one replacement Headband Strap and SoftWave Sensor to maintain your headband's snug and comfortable fit while ensuring the highest possible sensor accuracy for up to three months of use.
+          .transact
+            .price
+              ${{page.item-sensor-1}}
+            %a.add-to-cart{:href=>"https://www.e-junkie.com/ecom/gb.php?c=cart&i=934383&cl=167905&ejc=2", :target =>"ej_ejc", :class =>"ec_ejc_thkbx", :onClick=>"javascript:return EJEJC_lc(this);"}
+              %img{:src=>"images/purchase-add-to-cart-sm.jpg"}
+        .item
+          %h4 Replacement Headband Strap & Sensor Package (x3)
+          %img.prod{:src=>"images/purchase-headband.jpg", :align=>"left"}
+          %p Same as above, but includes three replacement headband straps and SoftWave sensors.
+          .transact
+            .price
+              ${{page.item-sensor-3}}
+            %a.add-to-cart{:href=>"https://www.e-junkie.com/ecom/gb.php?c=cart&i=934384&cl=167905&ejc=2", :target =>"ej_ejc", :class =>"ec_ejc_thkbx", :onClick=>"javascript:return EJEJC_lc(this);"}
+              %img{:src=>"images/purchase-add-to-cart-sm.jpg"}
       #questions-c.vtabs-content-item.qa
         .q Can multiple people use Zeo?
         .a 
@@ -68,3 +115,4 @@ layout: default
           %p These reports were presented at the annual meetings of Associated Professional Sleep Societies in 2008 and 2009. More studies are in progress.
       .vtabs-content-bottom
       %a#totop{:href=>"#"} Back to Top
+      <script src='http://www.e-junkie.com/ecom/box.js' type='text/javascript'></script>
