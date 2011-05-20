@@ -99,7 +99,8 @@ a {
   display: inline-block;
   float: right;
   position: relative;
-  z-index: 10; }
+  z-index: 10;
+  margin-bottom: 0px; }
   .nav a {
     color: white;
     font-size: 110%;
