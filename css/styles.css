@@ -1,3 +1,27 @@
+h1.hm-lg {
+  font-size: 50px;
+  color: #3a3a3a;
+  text-align: center;
+  font-weight: bold;
+  margin: 25px 0;
+  text-shadow: white 1px 1px 0px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Color=white,Direction=135,Strength=0)"; }
+
+.desc-block {
+  font-size: 200%;
+  color: #515151; }
+  .desc-block .testim {
+    display: inline-block;
+    margin-top: 15px; }
+  .desc-block a {
+    color: #1568b6; }
+  .desc-block strong {
+    color: #3a3a3a; }
+  .desc-block .see-pricing {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px; }
+
 p {
   margin-bottom: 12px;
   line-height: 150%;
@@ -14,7 +38,7 @@ blockquote {
 
 p a, .posts a {
   text-decoration: underline;
-  color: #8f050d; }
+  color: #1568b6; }
 
 .black {
   color: black; }

@@ -62,8 +62,32 @@ $useIEFilters: 0
   -o-transition: $value
   -webkit-transition: $value
   transition: $value
+=text-shadow(!color, !x, !y, !blur)
+  :text-shadow= !color !x !y "#{!blur}px"
+  :-ms-filter "progid:DXImageTransform.Microsoft.Shadow(Color=#{!color},Direction=135,Strength=#{!blur})"
 
 // ==== /CSS3 SASS MIXINS ====
+h1.hm-lg
+  font-size: 50px
+  color: #3a3a3a
+  text-align: center
+  font-weight: bold
+  margin: 25px 0
+  +text-shadow(#fff, 1px, 1px, 0)
+.desc-block
+  font-size: 200%
+  color: #515151
+  .testim
+    display: inline-block
+    margin-top: 15px
+  a
+    color: #1568b6
+  strong
+    color: #3a3a3a
+  .see-pricing
+    display: inline-block
+    vertical-align: top
+    margin-top: 10px
 p
   margin-bottom: 12px
   line-height: 150%
@@ -80,7 +104,7 @@ blockquote
 p, .posts
   a
     text-decoration: underline
-    color: #8F050D
+    color: #1568b6
 .black
   color: #000
 .greytext
@@ -372,6 +396,7 @@ h4
     text-decoration: none
   img
     margin: 0 0 5px 0
+
 .vtabs-content-bottom
   background: url(../images/vtab_content_bottom.png) no-repeat
   height: 11px

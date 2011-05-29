@@ -2,18 +2,23 @@
 title: Home
 layout: default
 \---
-.slider-wrap 
-  #s.slider{:"data-auto" => "true"}
-    .viewport.img-border
-      %ul.overview
-        %li.page{:style=>"background:url(images/s-1.jpg) no-repeat"}
-        %li.page{:style=>"background:url(images/s-2.gif) no-repeat"}
-        %li.page{:style=>"background:url(images/s-3.jpg) no-repeat"}
-          %a{:href=>"learn-about-fir-heat-wraps.html", :style=>"position:absolute;right:0;top:325px;"}
-            %img{:src=>"images/s-more.png"}
-    .slider-nav
-      %a.buttons.tk-museo.prev.disable
-      %a.buttons.tk-museo.next
+%h1.hm-lg Wireless Far Infrared Pain Relief
 
+%img{:src=>"images/home-body.jpg", :align=>"left", :style=>"margin-right: 25px"}
+
+.desc-block
+  %p{:style=>"margin-bottom:20px;"}
+    +Venture 
+    %strong wireless 
+    heat wraps deliver fast, effective 
+    %strong pain relief 
+    and healing whenever, wherever you need it.
+  %a{:href=>"learn-about-fir-heat-wraps.html"}
+    %img{:src=>"images/s-more.png"}
+  %span.see-pricing
+    or
+    %a{:href=>"products.html", :style=>"text-decoration:underline;"} see pricing
+  %img.testim{:src=>"images/test-1.jpg"}
+  %img.testim{:src=>"images/test-2.jpg"}
 %a{:href=>"press.html"}
   %img{:src=>"images/press-bar.jpg"}

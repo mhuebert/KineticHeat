@@ -1,0 +1,19 @@
+\---
+title: Home
+layout: default
+\---
+.slider-wrap 
+  #s.slider{:"data-auto" => "true"}
+    .viewport.img-border
+      %ul.overview
+        %li.page{:style=>"background:url(images/s-1.jpg) no-repeat"}
+        %li.page{:style=>"background:url(images/s-2.gif) no-repeat"}
+        %li.page{:style=>"background:url(images/s-3.jpg) no-repeat"}
+          %a{:href=>"learn-about-fir-heat-wraps.html", :style=>"position:absolute;right:0;top:325px;"}
+            %img{:src=>"images/s-more.png"}
+    .slider-nav
+      %a.buttons.tk-museo.prev.disable
+      %a.buttons.tk-museo.next
+
+%a{:href=>"press.html"}
+  %img{:src=>"images/press-bar.jpg"}
