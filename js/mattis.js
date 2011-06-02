@@ -1,16 +1,25 @@
 (function() {
   $(function() {
-    var $prods, current_anchor, link, selectOption;
+    var $prods, current_anchor, filterText, link, selectOption;
     selectOption = function(item) {
       $(".view-controller .active").removeClass("active");
       return item.addClass("active");
     };
     $prods = $('#prod-list');
-    $prods.isotope({
-      layoutMode: 'straightDown',
-      animationEngine: 'jquery',
-      filter: ".wrap"
-    });
+    if ($prods.length === 1) {
+      console.log(window.location.hash);
+      if (filterText = window.location.hash) {
+        filterText = "." + filterText.slice(1);
+        $('.view-controller .active').removeClass("active");
+      } else {
+        filterText = ".wrap";
+      }
+      $prods.isotope({
+        layoutMode: 'straightDown',
+        animationEngine: 'jquery',
+        filter: filterText
+      });
+    }
     $(".view-controller.filter a, .view-controller.filter area").click(function() {
       var $this, filterName;
       $this = $(this);
