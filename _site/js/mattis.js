@@ -1,6 +1,27 @@
 (function() {
   $(function() {
-    var current_anchor, link;
+    var $prods, current_anchor, link, selectOption;
+    selectOption = function(item) {
+      $(".view-controller .active").removeClass("active");
+      return item.addClass("active");
+    };
+    $prods = $('#prod-list');
+    $prods.isotope({
+      layoutMode: 'straightDown',
+      animationEngine: 'jquery',
+      filter: ".wrap"
+    });
+    $(".view-controller.filter a, .view-controller.filter area").click(function() {
+      var $this, filterName;
+      $this = $(this);
+      selectOption($this);
+      filterName = "." + $this.attr('href').slice(1);
+      console.log("filter " + filterName);
+      $prods.isotope({
+        filter: filterName
+      });
+      return false;
+    });
     $('.shownext').click(function() {
       $(this).closest('p').next().show();
       return $(this).hide();

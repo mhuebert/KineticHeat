@@ -1,4 +1,27 @@
 $ ->
+  
+
+  selectOption = (item) ->
+    $(".view-controller .active").removeClass("active")
+    item.addClass("active")
+
+  $prods = $('#prod-list')
+  
+  $prods.isotope
+    layoutMode: 'straightDown'
+    animationEngine: 'jquery'
+    filter: ".wrap"
+    
+  $(".view-controller.filter a, .view-controller.filter area").click ->
+    $this = $(this)
+    selectOption $this
+    filterName = "."+$this.attr('href').slice(1)
+    console.log "filter #{filterName}"
+    $prods.isotope
+      filter : filterName
+    return false
+    
+    
   $('.shownext').click ->
     $(this).closest('p').next().show()
     $(this).hide()

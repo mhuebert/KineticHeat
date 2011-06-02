@@ -20,7 +20,8 @@ h1.hm-lg {
   .desc-block .see-pricing {
     display: inline-block;
     vertical-align: top;
-    margin-top: 10px; }
+    margin-top: 20px;
+    color: black; }
 
 p {
   margin-bottom: 12px;
@@ -420,6 +421,58 @@ hr {
 
 .add-to-cart {
   margin-left: -3px; }
+
+.prod-img {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+  height: 129px;
+  width: 129px; }
+  .prod-img img {
+    -moz-box-shadow: 0 0 10px #999999;
+    -o-box-shadow: 0 0 10px #999999;
+    -webkit-box-shadow: 0 0 10px #999999;
+    box-shadow: 0 0 10px #999999; }
+
+.prod {
+  clear: both;
+  padding: 0 0 20px 0;
+  float: left; }
+  .prod h3 {
+    text-shadow: white 1px 1px 0px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Color=white,Direction=135,Strength=0)";
+    color: #535353;
+    display: inline-block; }
+
+.prod-nav {
+  margin-bottom: 20px;
+  margin-left: 30px;
+  width: 450px;
+  float: left;
+  margin-top: 30px; }
+  .prod-nav li {
+    display: inline-block;
+    margin-right: 10px; }
+  .prod-nav a {
+    font-size: 18px;
+    color: #7e7e7e;
+    font-weight: bold; }
+    .prod-nav a.active {
+      text-decoration: underline;
+      color: #535353; }
+
+#prod-list {
+  margin-left: 30px;
+  width: 450px;
+  float: left; }
+
+.prod-desc {
+  font-size: 12px; }
+
+.prod-body {
+  width: 307px;
+  float: left;
+  margin-top: 30px; }
 
 .off {
   color: black; }
