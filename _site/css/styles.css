@@ -436,7 +436,7 @@ hr {
 
 .prod {
   clear: both;
-  padding: 0 0 20px 0;
+  padding: 10px 0 20px 10px;
   float: left; }
   .prod h3 {
     text-shadow: white 1px 1px 0px;
@@ -461,8 +461,13 @@ hr {
       text-decoration: underline;
       color: #535353; }
 
+.hilite {
+  display: inline-block;
+  padding: 2px;
+  background-color: #fdffb0; }
+
 #prod-list {
-  margin-left: 30px;
+  margin-left: 23px;
   width: 450px;
   float: left; }
 
