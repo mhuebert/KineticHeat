@@ -54,7 +54,8 @@
           targetpanel = vtabswrapper.find('#' + $(this).attr('href').substr(1) + "-c");
           targetpanel.show();
           vtabswrapper.find('.vtabs-content-item').not(targetpanel).hide();
-          return window.location.hash = "top";
+          window.location.hash = "top";
+          return false;
         });
       });
     };

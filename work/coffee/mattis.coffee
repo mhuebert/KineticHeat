@@ -56,6 +56,7 @@ $ ->
   			targetpanel.show() #.slideDown()
   			vtabswrapper.find('.vtabs-content-item').not(targetpanel).hide() #slideUp()
   			window.location.hash = "top"
+  			return false
         # return false
 		
   if $('.vtabs-wrapper').length > 0

@@ -4,7 +4,7 @@ h1.hm-lg {
   text-align: center;
   font-weight: bold;
   margin: 25px 0;
-  text-shadow: white 1px 1px "0px"; }
+  text-shadow: white 1px 1px 0px; }
 
 .desc-block {
   font-size: 200%;
@@ -289,7 +289,8 @@ em, i {
 
 .vtabs-wrapper {
   margin-left: 15px;
-  position: relative; }
+  position: relative;
+  float: left; }
 
 .vtabs-content {
   margin-left: 150px; }
@@ -433,12 +434,42 @@ hr {
     -webkit-box-shadow: 0 0 10px #999999;
     box-shadow: 0 0 10px #999999; }
 
+.product-header {
+  text-align: right;
+  height: 508px;
+  margin: 30px 0; }
+  .product-header.thermogloves {
+    background: url(/images/thermogloves-large.jpg) center top no-repeat; }
+  .product-header.thermosoles {
+    background: url(/images/thermosoles-large.jpg) center top no-repeat; }
+  .product-header h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: white 1px 1px 0px; }
+  .product-header h3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #393939;
+    margin-top: 10px; }
+    .product-header h3 strong {
+      color: black; }
+
+h1.home-style {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-weight: bold;
+  font-size: 70px;
+  color: #6c6c6c;
+  margin-bottom: 20px;
+  text-shadow: white 1px 1px 0px; }
+  h1.home-style .red {
+    color: #932222; }
+
 .prod {
   clear: both;
   padding: 10px 0 20px 10px;
   float: left; }
   .prod h3 {
-    text-shadow: white 1px 1px "0px";
+    text-shadow: white 1px 1px 0px;
     color: #535353;
     display: inline-block; }
 
@@ -476,6 +507,9 @@ hr {
   width: 307px;
   float: left;
   margin-top: 30px; }
+
+.hidden {
+  display: none; }
 
 .off {
   color: black; }
