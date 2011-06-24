@@ -4,8 +4,7 @@ h1.hm-lg {
   text-align: center;
   font-weight: bold;
   margin: 25px 0;
-  text-shadow: white 1px 1px 0px;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Color=white,Direction=135,Strength=0)"; }
+  text-shadow: white 1px 1px "0px"; }
 
 .desc-block {
   font-size: 200%;
@@ -104,8 +103,8 @@ body {
   position: absolute;
   left: 0;
   z-index: 10;
-  width: 217px;
-  height: 60px; }
+  width: 285px;
+  height: 65px; }
 
 a {
   text-decoration: none;
@@ -439,8 +438,7 @@ hr {
   padding: 10px 0 20px 10px;
   float: left; }
   .prod h3 {
-    text-shadow: white 1px 1px 0px;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Color=white,Direction=135,Strength=0)";
+    text-shadow: white 1px 1px "0px";
     color: #535353;
     display: inline-block; }
 

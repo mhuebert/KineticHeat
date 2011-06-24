@@ -62,9 +62,10 @@ $useIEFilters: 0
   -o-transition: $value
   -webkit-transition: $value
   transition: $value
-=text-shadow(!color, !x, !y, !blur)
-  :text-shadow= !color !x !y "#{!blur}px"
-  :-ms-filter "progid:DXImageTransform.Microsoft.Shadow(Color=#{!color},Direction=135,Strength=#{!blur})"
+  
+=text-shadow($color, $x, $y, $blur)
+  text-shadow: $color $x $y "#{$blur}px"
+  -ms-filter "progid:DXImageTransform.Microsoft.Shadow(Color=#{$color},Direction=135,Strength=#{$blur})"
 
 // ==== /CSS3 SASS MIXINS ====
 h1.hm-lg
@@ -165,8 +166,8 @@ body
   left: 0
   z-index: 10
   // float: left
-  width: 217px
-  height: 60px
+  width: 285px
+  height: 65px
 a
   text-decoration: none
   outline: none
